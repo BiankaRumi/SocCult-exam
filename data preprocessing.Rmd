@@ -1,0 +1,120 @@
+---
+title: "data preprocessing"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+.libPaths( c("C:/Users/biank/Documents/Skole/CogSci/R_packages", .libPaths() ) )
+.libPaths()
+
+library(pacman)
+pacman::p_load(tidyverse)
+
+```
+
+
+
+```{r}
+#read the data
+df<-read.csv("testfil.csv",sep=";")
+
+#read a list of CPI's for native cpi
+CPI<-read.csv("CPI.csv", sep=";")
+
+#read a list of CPI's for current cpi
+CPI_current<-read.csv("CPI_current.csv", sep=";")
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+
+
+colnames(df)
+
+#Make all spaces into NAs
+df[df == ""] = NA
+
+
+#Now we have to mutate the data to coalesce the corresponding columns
+#for prisoners dilemma
+d<-df %>% mutate(Dilemma1 = coalesce(Dilemma1,Dilemma1.1), Dilemma2= coalesce(Dilemma2,Dilemma2.1)) %>% select(ï..Time, Dilemma1,Dilemma2)
+
+
+#for faces
+f<- df %>% mutate(Face1 = coalesce(Face1,Face1.1), Face2 = coalesce(Face2,Face2.1), Face3 = coalesce(Face3,Face3.1), Face4 = coalesce(Face4,Face4.1), Face5 = coalesce(Face5,Face5.1), Face6 = coalesce(Face6,Face6.1), Face7 = coalesce(Face7,Face7.1), Face8 = coalesce(Face8,Face8.1), Face9 = coalesce(Face9,Face9.1), Face10 = coalesce(Face10,Face10.1), Face11 = coalesce(Face11,Face11.1), Face12 = coalesce(Face12,Face12.1), Face13 = coalesce(Face13,Face13.1), Face14 = coalesce(Face14,Face14.1), Face15 = coalesce(Face15,Face15.1), Face16 = coalesce(Face16,Face16.1), Face17 = coalesce(Face17,Face17.1), Face18 = coalesce(Face18,Face18.1), Face19 = coalesce(Face19,Face19.1), Face20 = coalesce(Face20,Face20.1)) %>% select(ï..Time, Face1, Face2, Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,Face13,Face14,Face15,Face16,Face17,Face18,Face19,Face20)
+
+#this is our new datafra
+data<-cbind(f,d)
+
+#relevant variables are put inside
+data$Time<-df$ï..Time
+data$Age<-df$Age
+data$Gender<-df$Gender
+data$Education<-df$Education
+data$CogSci<-df$CogSci
+data$NativeCountry<-df$Native_Country
+data$CurrentCountry<-df$Current_Country
+data$Years_Current<-df$Years_Current
+data$Q1<-df$Q1
+data$Q2<-df$Q2
+data$Q3<-df$Q3
+data$Q4<-df$Q4
+
+#we remove the weird timestamp notations
+
+
+#create an ID column
+data$ID <- seq.int(nrow(data))
+
+#Change the order of the wanted columns
+data<- data %>% select(ID, Age, Gender, Education, CogSci, NativeCountry, CurrentCountry, Years_Current, Face1, Face2, Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,Face13,Face14,Face15,Face16,Face17,Face18,Face19,Face20, Dilemma1, Dilemma2, Q1, Q2, Q3, Q4)
+
+#make all the values into characters for being able to rename them
+data[,1:34] <- sapply(data[,1:34],as.character)
+
+
+class(data$Dilemma1)
+#show the different levels for a character
+unique(data$Dilemma1)
+unique(data$Dilemma2)
+
+#recode variables in prisoners. 0 = defect, 1 = cooperate
+data$Dilemma1[data$Dilemma1 == "TrÃ¦kke dig / sladre"] <- "0"
+data$Dilemma1[data$Dilemma1 == "Defect"] <- "0"
+data$Dilemma1[data$Dilemma1 == "Samarbejde / tie"] <- "1"
+data$Dilemma1[data$Dilemma1 == "Cooperate"] <- "1"
+
+
+data$Dilemma2[data$Dilemma2 == "Donere til fÃ¦llespuljen"] <- "1"
+data$Dilemma2[data$Dilemma2 == "Donate"] <- "1"
+data$Dilemma2[data$Dilemma2 == "Beholde pengene"] <- "0"
+data$Dilemma2[data$Dilemma2 == "Keep"] <- "0"
+#rename other variable
+
+#we also need to recode the questionnaire variables, due to the fact that the answers have different valence. we want higher values to code for a higher level of trust.this fits for question 1 and 2, but not for q3 and 4 so we recode:
+
+data <- data %>% 
+     mutate_at(c("Q3","Q4"), funs(recode(., `1`=6, `2`=5,`3`=4, `4`=3,`5`=2, `6`=1,  .default = NaN)))
+
+
+
+#now we merge the dataframes to include the two CPI_values
+datas<-merge(data,CPI, by.x="NativeCountry")
+fd<-merge(data,CPI_current, by.x="CurrentCountry")
+
+data<-datas
+names(data)[names(data) == "CPI_2019"] <- "CPI_native"
+
+names(fd)[names(fd) == "CPI_2019"] <- "CPI_current"
+
+data$CPI_current<-fd$CPI_current
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
