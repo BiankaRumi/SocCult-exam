@@ -73,6 +73,7 @@ data$ID <- seq.int(nrow(data))
 
 data$ID<- as.factor(data$ID)
 
+data <- data[,-1]
 #Change the order of the wanted columns
 data<- data %>% select(ID, Age, Gender, Education, CogSci, NativeCountry, CurrentCountry, Years_Current, Face1, Face2, Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,Face13,Face14,Face15,Face16,Face17,Face18,Face19,Face20, Dilemma1, Dilemma2, Q1, Q2, Q3, Q4)
 
@@ -155,12 +156,14 @@ d_long <- gather(d_wide, condition, d_data, Dilemma1:Dilemma2, factor_key=TRUE) 
 ```
 
 ```{r}
-combined<-merge(d_long,q_long, by="ID", "Age", "Gender", "Education", "CogSci", "CPI_native","CPI_current", "NativeCountry", "CurrentCountry", "Years_Current")
+
 
 combined<-merge(d_long,q_long, all.y=T, all.x=T)
 
 combined<-merge(combined,face_long, all.y=T, all.x=T)
 
+
+write.csv(combined, "combined_danish.csv")
 ```
 
 

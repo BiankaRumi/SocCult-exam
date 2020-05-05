@@ -1,0 +1,327 @@
+---
+title: "Analysis SocCult"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+.libPaths( c("C:/Users/biank/Documents/Skole/CogSci/R_packages", .libPaths() ) )
+.libPaths()
+
+library(pacman)
+pacman::p_load(tidyverse,brms)
+```
+
+
+
+```{r, include=FALSE}
+#read the two datasets
+
+
+
+#merge the two datasets
+
+
+combined$d_data<-as.numeric(combined$d_data)
+combined$q_data<-as.numeric(combined$q_data)
+combined$f_data<-as.numeric(combined$f_data)
+```
+
+
+## Template
+
+### Define hypotheses / Describe variables
+
+I will test for the following two hypotheses: 
+H1: Corruption rate of one's native country has an effect on interpersonal trust.
+
+H2: The effect declines over time spent in a non-corrupt country like Denmark
+
+Variables involved:
+
+Outcome: 3 different scores of interpersonal trust
+
+- trust_prisoners_dilemma (d_data), 2 rounds times scores 0-1, binomial
+
+- trust_faces (face_data), 20 observation times scores from 1-6
+discrete variable, only positive, normally distributed
+
+- trust_questionnaire (q_data), 4 questions scores from 1-6
+discrete variable, only positive, normally distributed
+
+
+Predictors: 
+
+H1:
+CPI_native: Corruption Perception Index, a scale from 1-100, where 100 indicates no corruption at all for native country: discrete variable, only positive, 
+
+Condition: dilemma 1 or 2 ; faces 1 - 20; q 1- q4
+
+ID
+
+H2: 
+CPI_native
+Condition
+ID
+Years: Number of years spent in current country
+CPI_change = CPI_current - CPI_native
+            Positive score = Less corruption
+            Negative score = more corruption
+0 = no change, probably haven’t moved
+
+
+Other predictors I consider to include to rule out other underlying factors
+- Native country GDP
+- Highest level of education
+
+I will make the following models:
+
+H1: 
+
+Baseline / m0: Interpersonal trust ~ condition
+
+m1: Interpersonal trust ~ CPI_native + condition,
+
+m2: Interpersonal trust ~ CPI_native + condition + (1 + condition | ID) ,
+
+Each of these for the 3 different outcome variables, so 9 models.
+
+
+H2: 
+
+m3: Interpersonal trust  ~ 1 + CPI_native + CPI_change + condition CPI_change:Years ,
+m4: Interpersonal trust  ~ 1 + CPI_native + CPI_change + condition CPI_change:Years + (1 + condition | ID)
+
+Each of these fir the 3 different outcome variables, so 6 models.
+
+
+
+################################## H1 ############################### 
+
+```{r}
+# I try to make a multivariate model for H1 basic
+#First, I will define my models:
+f0<- bf(mvbind(d_data,q_data,face_data) ~ 1 + condition)
+f0_d<-bf(d_data ~ d_condition+binomial())
+f0_q<-bf(q_data ~  q_condition)
+f0_f<-bf(f_data ~ f_condition+gaussian())
+f0<-f0_d+f0_q+f0_f
+
+f1<- bf(mvbind(d_data,q_data,face_data) ~ 1 + condition + CPI_native)
+f1_d<-bf(d_data ~ 1 + d_condition+CPI_native)
+f2<- bf(mvbind(d_data,q_data,face_data) ~ 1 + condition + CPI_native + (1 + condition | ID))
+ 
+
+```
+
+
+Define priors and quality check
+```{r}
+############### prior for dilemma #####################
+hist(combined$d_data)
+hist(combined$f_data)
+get_prior(f0_d, combined, binomial())
+
+f0_d_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0.2, .1), class = b)
+)
+
+f0_d_prior_m <- brm(
+  f0_d,
+  combined,
+  family = binomial,
+  prior = f0_d_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f0_d_prior_m,nsamples=1000)
+
+
+############# prior for questionnaire ###################
+
+get_prior(f0_q, combined, gaussian())
+
+f0_q_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0.2, .1), class = b,
+  prior(normal(0.2, .1), class = b,
+  prior(normal(0.2, .1), class = b,
+  prior(normal(0.2, .1), class = b)
+)
+
+f0_d_prior_m <- brm(
+  f0_d,
+  combined,
+  family = binomial,
+  prior = f0_d_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f0_d_prior_m,nsamples=1000)
+
+
+
+f0_d_m <- brm(
+  f0_d,
+  combined,
+  family = binomial(),
+  prior = f0_d_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f0_d_m,nsamples=1000)
+
+summary(f0_d_m)
+
+
+
+summary(f0_d_m)
+
+
+```
+
+```{r}
+####### f1d
+get_prior(f1_d, combined, family = binomial())
+
+f1_d_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0.2, .1), class = b, coef=CPI_native),
+  prior(normal(0.2, .1), class = b, coef=d_conditionDilemma2)
+)
+
+f1_d_prior_m <- brm(
+  f1_d,
+  combined,
+  family = binomial(),
+  prior = f1_d_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+
+pp_check(f1_d_prior_m,nsamples=1000)
+
+
+f1_d_m <- brm(
+  f1_d,
+  combined,
+  family = binomial,
+  prior = f1_d_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(f1_d_m)
+```
+
+Make the models + predictive posterior check:
+```{r}
+
+```
+
+
+Visualization of results:
+```{r}
+
+```
+
+
+Model comparisons:
+```{r}
+
+```
+
+
+
+
+
+################################## H2 ############################### 
+
+```{r}
+# I try to make a multivariate model for H2 
+#First, I will define my models:
+f3<- bf(mvbind(d_data,q_data,face_data) ~ 1 + CPI_native + CPI_change + condition CPI_change:Years)
+
+f4<- bf(mvbind(d_data,q_data,face_data) ~ 1 + CPI_native + CPI_change + condition CPI_change:Years + (1 + condition | ID))
+
+
+```
+
+
+Define priors and quality check
+```{r}
+#defining priors and quality check for the models in H2
+
+
+```
+
+
+Make the models + predictive posterior check:
+```{r}
+
+```
+
+
+Visualization of results:
+```{r}
+
+```
+
+
+Model comparisons:
+```{r}
+
+```
+
+### Identify your model[s] 
+* likelihood function
+* formula
+* priors
+
+### Assess model quality
+* Predictive prior checks
+* Divergences / Rhat / ESS
+* Prior/Posterior learning (betas and sds)
+* Model comparison
+* Predictive posterior checks
+
+### Report results
+* Model comparison
+* Estimates and hypothesis testing
+* Make sure to deal cautiously with interactions (e.g. plot!)
+* Make sure to let the reader know the effects of the estimates on the outcome scale (if generalized linear model)
+
+
+### Define your hypotheses
+People will conform to peer feedback, that is, they will change according to the feedback.
+
+### Describe variables
+Outcome: 
+- Change (amount of change from the first rating)
+Predictors: 
+- Feedback (difference between first rating and peer feedback)
+- FirstRating (starting point, e.g. if early rating is 8, difficult to go up!)
+- ID: participant ID
+- FaceID: face ID
+
+### Identify your model[s] 
+* likelihood function: Change is numeric and goes from -6 to +6. Roughly gaussian?
+* formula: 
+* priors
+
+```{r}
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

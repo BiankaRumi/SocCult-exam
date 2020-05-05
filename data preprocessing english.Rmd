@@ -130,7 +130,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 face_wide<-data %>% select(ID, Age, Gender, Education, CogSci, CPI_native,CPI_current, NativeCountry, CurrentCountry, Years_Current, Face1, Face2, Face3,Face4,Face5,Face6,Face7,Face8,Face9,Face10,Face11,Face12,Face13,Face14,Face15,Face16,Face17,Face18,Face19,Face20)
 
 #We use gather to make the data into long format. 
-face_long <- gather(face_wide, condition, face_data, Face1:Face20, factor_key=TRUE) #dataset, new column name for condition, new column name for datapoints, the names from - to which column to make long
+face_long <- gather(face_wide, f_condition, f_data, Face1:Face20, factor_key=TRUE) #dataset, new column name for condition, new column name for datapoints, the names from - to which column to make long
 ```
 
 ```{r}
@@ -140,7 +140,7 @@ face_long <- gather(face_wide, condition, face_data, Face1:Face20, factor_key=TR
 q_wide<-data %>% select(ID, Age, Gender, Education, CogSci, CPI_native,CPI_current, NativeCountry, CurrentCountry, Years_Current, Q1, Q2, Q3, Q4)
 
 #We use gather to make the data into long format. 
-q_long <- gather(q_wide, condition, q_data, Q1:Q4, factor_key=TRUE) #dataset, new column name for condition, new column name for datapoints, the names from - to which column to make long
+q_long <- gather(q_wide, q_condition, q_data, Q1:Q4, factor_key=TRUE) #dataset, new column name for condition, new column name for datapoints, the names from - to which column to make long
 
 ```
 
@@ -152,17 +152,30 @@ q_long <- gather(q_wide, condition, q_data, Q1:Q4, factor_key=TRUE) #dataset, ne
 d_wide<-data %>% select(ID, Age, Gender, Education, CogSci, CPI_native,CPI_current, NativeCountry, CurrentCountry, Years_Current, Dilemma1, Dilemma2)
 
 #We use gather to make the data into long format. 
-d_long <- gather(d_wide, condition, d_data, Dilemma1:Dilemma2, factor_key=TRUE) #dataset, new column name for condition, new column name for datapoints, the names from - to which column to make long
+d_long <- gather(d_wide, d_condition, d_data, Dilemma1:Dilemma2, factor_key=TRUE) #dataset, new column name for condition, new column name for datapoints, the names from - to which column to make long
 
 
 ```
 
 ```{r}
 
-
+c<-full_join(d_long, q_long, by = "ID")
+c<-merge(d_long,q_long, all.x=T, all.y=T)
 combined<-merge(d_long,q_long, all.y=T, all.x=T)
+
+combined<-merge(d_long,q_long)
 
 combined<-merge(combined,face_long, all.y=T, all.x=T)
 
+combined<-face_long
+
+p_load(gtools)
+
+combined$q_condition<-q_long$q_condition
+
+
+combined<-smartbind(d_long,q_long)
+
+combined<-smartbind(combined,face_long)
 write.csv(combined, "combined_eng.csv")
 ```
