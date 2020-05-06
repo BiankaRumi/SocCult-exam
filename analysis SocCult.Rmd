@@ -1,6 +1,8 @@
 ---
 title: "Analysis SocCult"
 output: html_document
+editor_options: 
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -11,11 +13,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(pacman)
 pacman::p_load(tidyverse,brms)
+
+
 ```
 
 
 
-```{r, include=FALSE}
+```{r echo=TRUE}
 #read the two datasets
 
 
@@ -23,9 +27,20 @@ pacman::p_load(tidyverse,brms)
 #merge the two datasets
 
 
+combined<-read.csv("combined_test.csv")
 combined$d_data<-as.numeric(combined$d_data)
 combined$q_data<-as.numeric(combined$q_data)
 combined$f_data<-as.numeric(combined$f_data)
+
+
+combined$d<-ifelse(is.na(combined$d_data), F, T)
+
+combined$f<-ifelse(is.na(combined$f_data), F, T)
+
+combined$q<-ifelse(is.na(combined$q_data), F, T)
+class(combined$q)
+
+
 ```
 
 
@@ -102,26 +117,35 @@ Each of these fir the 3 different outcome variables, so 6 models.
 ```{r}
 # I try to make a multivariate model for H1 basic
 #First, I will define my models:
-f0<- bf(mvbind(d_data,q_data,face_data) ~ 1 + condition)
-f0_d<-bf(d_data ~ d_condition+binomial())
-f0_q<-bf(q_data ~  q_condition)
-f0_f<-bf(f_data ~ f_condition+gaussian())
-f0<-f0_d+f0_q+f0_f
+ # I cannot design the priors  and the family individually in this so I try to make different formulas for each
 
-f1<- bf(mvbind(d_data,q_data,face_data) ~ 1 + condition + CPI_native)
+f0_d<-bf(d_data ~ 1 + d_condition) #bernoulli
+f0_q<-bf(q_data ~ 1 + q_condition)#gaussian
+f0_f<-bf(f_data ~ 1 + f_condition) #gaussian
+
+
 f1_d<-bf(d_data ~ 1 + d_condition+CPI_native)
-f2<- bf(mvbind(d_data,q_data,face_data) ~ 1 + condition + CPI_native + (1 + condition | ID))
+f1_q<-bf(q_data ~ 1 + q_condition+CPI_native)
+f1_f<-bf(f_data ~ 1 + f_condition+CPI_native)
+
+
+f2_d<-bf(d_data ~ CPI_native + d_condition + (1 + d_condition | ID))
+f2_q<-bf(q_data ~ CPI_native + q_condition + (1 + q_condition | ID))
+f2_f<-bf(f_data ~ CPI_native + f_condition + (1 + f_condition | ID))
+
+
  
 
 ```
 
 
-Define priors and quality check
-```{r}
+Making the priors for m0
+```{r Priors for Prisoners Dilemma}
 ############### prior for dilemma #####################
 hist(combined$d_data)
 hist(combined$f_data)
-get_prior(f0_d, combined, binomial())
+hist(combined$q_data)
+get_prior(f0_d, combined, bernoulli())
 
 f0_d_prior<-c(
   prior(normal(0.5, 0.2), class = Intercept),
@@ -131,7 +155,7 @@ f0_d_prior<-c(
 f0_d_prior_m <- brm(
   f0_d,
   combined,
-  family = binomial,
+  family = bernoulli,
   prior = f0_d_prior,
   sample_prior = "only",
   chains = 2,
@@ -141,56 +165,8 @@ f0_d_prior_m <- brm(
 pp_check(f0_d_prior_m,nsamples=1000)
 
 
-############# prior for questionnaire ###################
-
-get_prior(f0_q, combined, gaussian())
-
-f0_q_prior<-c(
-  prior(normal(0.5, 0.2), class = Intercept),
-  prior(normal(0.2, .1), class = b,
-  prior(normal(0.2, .1), class = b,
-  prior(normal(0.2, .1), class = b,
-  prior(normal(0.2, .1), class = b)
-)
-
-f0_d_prior_m <- brm(
-  f0_d,
-  combined,
-  family = binomial,
-  prior = f0_d_prior,
-  sample_prior = "only",
-  chains = 2,
-  cores = 3,
-  )
-
-pp_check(f0_d_prior_m,nsamples=1000)
-
-
-
-f0_d_m <- brm(
-  f0_d,
-  combined,
-  family = binomial(),
-  prior = f0_d_prior,
-  sample_prior = T,
-  chains = 2,
-  cores = 3,
-  )
-
-pp_check(f0_d_m,nsamples=1000)
-
-summary(f0_d_m)
-
-
-
-summary(f0_d_m)
-
-
-```
-
-```{r}
-####### f1d
-get_prior(f1_d, combined, family = binomial())
+####### f1 prior for dilemma ############
+get_prior(f1_d, combined, family = bernoulli())
 
 f1_d_prior<-c(
   prior(normal(0.5, 0.2), class = Intercept),
@@ -201,7 +177,7 @@ f1_d_prior<-c(
 f1_d_prior_m <- brm(
   f1_d,
   combined,
-  family = binomial(),
+  family = bernoulli(),
   prior = f1_d_prior,
   sample_prior = "only",
   chains = 2,
@@ -212,23 +188,383 @@ f1_d_prior_m <- brm(
 pp_check(f1_d_prior_m,nsamples=1000)
 
 
-f1_d_m <- brm(
+
+####### f2 prior for dilemma ############
+get_prior(f2_d, combined, family = bernoulli())
+
+f2_d_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0.2, .1), class = b, coef=CPI_native),
+  prior(normal(0.2, .1), class = b, coef=d_conditionDilemma2),
+  prior(normal(0, .1), class = sd)
+)
+
+f2_d_prior_m <- brm(
+  f2_d,
+  combined,
+  family = bernoulli(),
+  prior = f2_d_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+
+pp_check(f2_d_prior_m,nsamples=100)
+
+
+
+
+
+
+
+```
+
+
+```{r Prisoners: Models and model comparison}
+
+################## making the models #####################
+
+
+
+d_m0 <- brm(
+  f0_d,
+  combined,
+  family = bernoulli(),
+  prior = f0_d_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(d_m0)
+
+
+
+
+d_m1 <- brm(
   f1_d,
   combined,
-  family = binomial,
+  family = bernoulli,
   prior = f1_d_prior,
   sample_prior = T,
   chains = 2,
   cores = 3,
   )
 
-summary(f1_d_m)
+summary(d_m1)
+
+
+
+
+d_m2 <- brm(
+  f2_d,
+  combined,
+  family = bernoulli,
+  prior = f2_d_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(d_m2)
+
+d_m0<-add_criterion(d_m0,criterion="loo")
+d_m1<-add_criterion(d_m1,criterion="loo")
+d_m2<-add_criterion(d_m2,criterion="loo")
+
+loo_compare(d_m0, d_m1, d_m2)
+loo_model_weights(d_m0, d_m1, d_m2)
 ```
 
-Make the models + predictive posterior check:
-```{r}
+
+
+
+
+
+```{r Priors for Questionnaire}
+
+############# f0 prior for questionnaire ###################
+
+get_prior(f0_q, combined, gaussian())
+mean(combined$q_data,na.rm=TRUE)
+sd(combined$q_data,na.rm=TRUE)
+f0_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.5, .2), class = b), 
+  prior(normal(3.5, 1), class = sigma)
+  )
+
+
+f0_q_prior_m <- brm(
+  f0_q,
+  combined,
+  family = gaussian,
+  prior = f0_q_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f0_q_prior_m,nsamples=100)
+
+
+
+
+
+####################### f1 prior for questionnaire ####################
+
+get_prior(f1_q, combined, gaussian())
+
+f1_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .1), class = b),
+  prior(normal(0.3, .1), class = b,coef=CPI_native),
+  prior(normal(3.5, 1), class = sigma)
+  )
+
+
+f1_q_prior_m <- brm(
+  f1_q,
+  combined,
+  family = gaussian(),
+  prior = f1_q_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f1_q_prior_m,nsamples=100)
+
+
+
+####################### f2 prior for questionnaire ####################
+
+get_prior(f2_q, combined, gaussian())
+
+f2_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .1), class = b),
+  prior(normal(0.3, .1), class = b,coef=CPI_native),
+  prior(normal(3.5, 1), class = sigma),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f2_q_prior_m <- brm(
+  f2_q,
+  combined,
+  family = gaussian,
+  prior = f2_q_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f2_q_prior_m,nsamples=100)
+
+
+
+
 
 ```
+
+```{r Questionnaire models and comparisons }
+
+q_m0 <- brm(
+  f0_q,
+  combined,
+  family = gaussian,
+  prior = f0_q_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(q_m0)
+
+q_m1 <- brm(
+  f1_q,
+  combined,
+  family = gaussian(),
+  prior = f1_q_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(q_m1)
+
+q_m2 <- brm(
+  f2_q,
+  combined,
+  family = gaussian,
+  prior = f2_q_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(q_m2)
+
+
+q_m0<-add_criterion(q_m0,criterion="loo")
+q_m1<-add_criterion(q_m1,criterion="loo")
+q_m2<-add_criterion(q_m2,criterion="loo")
+
+loo_compare(q_m0, q_m1, q_m2)
+loo_model_weights(q_m0, q_m1, q_m2)
+```
+
+
+
+```{r Faces Priors }
+
+###################### f0 prior for faces ##################################
+
+get_prior(f0_f, combined, gaussian())
+mean(combined$f_data,na.rm=TRUE)
+sd(combined$f_data,na.rm=TRUE)
+f0_f_prior<-c(
+  prior(normal(3.7, 1.2), class = Intercept),
+  prior(normal(1.2, .3), class = b), 
+  prior(normal(3.7, 1), class = sigma)
+  )
+
+
+f0_f_prior_m <- brm(
+  f0_f,
+  combined,
+  family = gaussian,
+  prior = f0_f_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f0_f_prior_m,nsamples=100)
+
+
+
+####################### f1 prior for faces ############################
+
+
+get_prior(f1_f, combined, gaussian())
+mean(combined$f_data,na.rm=TRUE)
+sd(combined$f_data,na.rm=TRUE)
+f1_f_prior<-c(
+  prior(normal(3.7, 1), class = Intercept),
+  prior(normal(0.5, .3), class = b),
+  prior(normal(0.3, .1), class = b, coef=CPI_native),
+  prior(normal(3.7, 1), class = sigma)
+  )
+
+
+f1_f_prior_m <- brm(
+  f1_f,
+  combined,
+  family = gaussian,
+  prior = f1_f_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f1_f_prior_m,nsamples=100)
+
+
+####################### f2 prior for faces ############################
+
+
+get_prior(f2_f, combined, gaussian())
+mean(combined$f_data,na.rm=TRUE)
+sd(combined$f_data,na.rm=TRUE)
+
+f2_f_prior<-c(
+  prior(normal(3.7, 1), class = Intercept),
+  prior(normal(0.5, .3), class = b),
+  prior(normal(0.3, .1), class = b, coef=CPI_native),
+  prior(normal(3.7, 1), class = sigma),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f2_f_prior_m <- brm(
+  f2_f,
+  combined,
+  family = gaussian,
+  prior = f2_f_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f2_f_prior_m,nsamples=100)
+
+
+
+
+
+
+
+```
+
+
+```{r Faces Models and comparisons}
+
+########################## making the models #################################
+
+
+f_m0 <- brm(
+  f0_f,
+  combined,
+  family=gaussian(),
+  prior = f0_f_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f_m0,nsamples=100)
+summary(f_m0)
+
+f_m1 <- brm(
+  f1_f,
+  combined,
+  family=gaussian(),
+  prior = f1_f_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f_m1, nsamples=100)
+summary(f_m1)
+
+f_m2 <- brm(
+  f2_f,
+  combined,
+  family=gaussian(),
+  prior = f2_f_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f_m2,nsamples=100)
+summary(f_m2)
+
+
+f_m0<-add_criterion(f_m0,criterion="loo")
+f_m1<-add_criterion(f_m1,criterion="loo")
+f_m2<-add_criterion(f_m2,criterion="loo")
+
+loo_compare(f_m0, f_m1, f_m2)
+loo_model_weights(f_m0, f_m1, f_m2)
+```
+
+
+
 
 
 Visualization of results:
@@ -251,9 +587,9 @@ Model comparisons:
 ```{r}
 # I try to make a multivariate model for H2 
 #First, I will define my models:
-f3<- bf(mvbind(d_data,q_data,face_data) ~ 1 + CPI_native + CPI_change + condition CPI_change:Years)
 
-f4<- bf(mvbind(d_data,q_data,face_data) ~ 1 + CPI_native + CPI_change + condition CPI_change:Years + (1 + condition | ID))
+
+f3<- bf(mvbind(d_data,q_data,face_data) ~ 1 + CPI_native + CPI_change + condition CPI_change:Years + (1 + condition | ID))
 
 
 ```
