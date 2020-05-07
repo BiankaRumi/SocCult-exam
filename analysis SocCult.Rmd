@@ -1,6 +1,8 @@
 ---
 title: "Analysis SocCult"
-output: html_document
+output: 
+  md_document:
+      variant: markdown_github
 editor_options: 
   chunk_output_type: inline
 ---
@@ -41,6 +43,9 @@ combined$q<-ifelse(is.na(combined$q_data), F, T)
 class(combined$q)
 
 
+#make a column for CPI_change
+
+combined$CPI_change<-combined$CPI_current-combined$CPI_native
 ```
 
 
@@ -319,6 +324,9 @@ get_prior(f1_q, combined, gaussian())
 f1_q_prior<-c(
   prior(normal(3.5, 1), class = Intercept),
   prior(normal(0.3, .1), class = b),
+  prior(normal(0.3, .1), class = b,coef=q_conditionQ2),
+  prior(normal(0.3, .1), class = b,coef=q_conditionQ3),
+  prior(normal(0.3, .1), class = b,coef=q_conditionQ4),
   prior(normal(0.3, .1), class = b,coef=CPI_native),
   prior(normal(3.5, 1), class = sigma)
   )
@@ -346,6 +354,9 @@ f2_q_prior<-c(
   prior(normal(3.5, 1), class = Intercept),
   prior(normal(0.3, .1), class = b),
   prior(normal(0.3, .1), class = b,coef=CPI_native),
+  prior(normal(0.3, .1), class = b,coef=q_conditionQ2),
+  prior(normal(0.3, .1), class = b,coef=q_conditionQ3),
+  prior(normal(0.3, .1), class = b,coef=q_conditionQ4),
   prior(normal(3.5, 1), class = sigma),
   prior(normal(0, .1), class = sd)
   )
@@ -568,7 +579,30 @@ loo_model_weights(f_m0, f_m1, f_m2)
 
 
 Visualization of results:
-```{r}
+```{r Hypothesis testing H1}
+
+plot(hypothesis(d_m1,"CPI_native > 0"))
+hypothesis(d_m1,"CPI_native > 0")
+
+
+plot(hypothesis(q_m1,"CPI_native > 0"))
+hypothesis(q_m1,"CPI_native > 0")
+
+
+plot(hypothesis(f_m1,"CPI_native > 0"))
+hypothesis(f_m1,"CPI_native > 0")
+
+
+plot(hypothesis(d_m2,"CPI_native > 0"))
+hypothesis(d_m2,"CPI_native > 0")
+
+plot(hypothesis(q_m2,"CPI_native > 0"))
+hypothesis(q_m2,"CPI_native > 0")
+
+plot(hypothesis(f_m2,"CPI_native > 0"))
+hypothesis(f_m2,"CPI_native > 0")
+
+plot(f_m2)
 
 ```
 
@@ -584,33 +618,237 @@ Model comparisons:
 
 ################################## H2 ############################### 
 
-```{r}
-# I try to make a multivariate model for H2 
-#First, I will define my models:
+```{r Models for H2}
 
 
-f3<- bf(mvbind(d_data,q_data,face_data) ~ 1 + CPI_native + CPI_change + condition CPI_change:Years + (1 + condition | ID))
+
+f3_d<- bf(d_data ~ 1 + CPI_native + CPI_change + d_condition + CPI_change * Years_Current + (1 + d_condition | ID))
+
+f3_q<- bf(q_data ~ 1 + CPI_native + CPI_change + q_condition + CPI_change * Years_Current + (1 + q_condition | ID))
+
+f3_f<- bf(f_data ~ 1 + CPI_native + CPI_change + f_condition + CPI_change * Years_Current + (1 + f_condition | ID))
+
+```
+
+
+
+```{r Priors for Prisoners Dilemma}
+############### prior for dilemma #####################
+
+get_prior(f3_d, combined, bernoulli())
+
+f3_d_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0.2, .1), class = b, coef=CPI_native),
+  prior(normal(0.2, .1), class = b, coef=d_conditionDilemma2),
+  prior(normal(0.2, .1), class = b, coef=Years_Current),
+  prior(normal(0.2, .1), class = b, coef=CPI_change:Years_Current),
+  prior(normal(0, .1), class = sd)
+)
+
+
+f3_d_prior_m <- brm(
+  f3_d,
+  combined,
+  family = bernoulli,
+  prior = f3_d_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f3_d_prior_m,nsamples=1000)
+
 
 
 ```
 
 
-Define priors and quality check
-```{r}
-#defining priors and quality check for the models in H2
+```{r Prisoners: Models and model comparison}
+
+################## making the models #####################
+
+
+
+d_m3 <- brm(
+  f3_d,
+  combined,
+  family = bernoulli(),
+  prior = f3_d_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(d_m3)
+
+
+
+d_m3<-add_criterion(d_m3,criterion="loo")
+
+
+loo_compare(d_m0, d_m1, d_m2, d_m3)
+loo_model_weights(d_m0, d_m1, d_m2, d_m3)
+```
+
+
+
+
+
+
+```{r Priors for Questionnaire}
+
+############# f0 prior for questionnaire ###################
+
+get_prior(f3_q, combined, gaussian())
+
+
+f3_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .1), class = b),
+  prior(normal(0.3, .1), class = b,coef=CPI_native),
+  prior(normal(3.5, 1), class = sigma),
+  prior(normal(0, .1), class = sd),
+  prior(normal(0.2, .1), class = b, coef=Years_Current),
+  prior(normal(0.2, .1), class = b, coef=CPI_change:Years_Current)
+  )
+
+
+f3_q_prior_m <- brm(
+  f3_q,
+  combined,
+  family = gaussian,
+  prior = f3_q_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f3_q_prior_m,nsamples=100)
+
+
+
+
+
+```
+
+```{r Questionnaire models and comparisons }
+
+q_m3 <- brm(
+  f3_q,
+  combined,
+  family = gaussian,
+  prior = f3_q_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+summary(q_m3)
+
+
+
+q_m3<-add_criterion(q_m3,criterion="loo")
+
+
+loo_compare(q_m0, q_m1, q_m2, q_m3)
+loo_model_weights(q_m0, q_m1, q_m2, q_m3)
+```
+
+
+
+```{r Faces Priors }
+
+
+
+####################### f3 prior for faces ############################
+
+
+get_prior(f3_f, combined, gaussian())
+
+f3_f_prior<-c(
+  prior(normal(3.7, 1), class = Intercept),
+  prior(normal(0.5, .3), class = b),
+  prior(normal(0.3, .1), class = b, coef=CPI_native),
+  prior(normal(3.7, 1), class = sigma),
+  prior(normal(0.5, .3), class = sd),
+  prior(normal(0.2, .1), class = b, coef=Years_Current),
+  prior(normal(0.2, .1), class = b, coef=CPI_change:Years_Current)
+  )
+
+
+f3_f_prior_m <- brm(
+  f3_f,
+  combined,
+  family = gaussian,
+  prior = f3_f_prior,
+  sample_prior = "only",
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f3_f_prior_m,nsamples=100)
+
+
+
+
+
 
 
 ```
 
 
-Make the models + predictive posterior check:
-```{r}
+```{r Faces Models and comparisons}
 
+########################## making the models #################################
+
+
+f_m3 <- brm(
+  f3_f,
+  combined,
+  family=gaussian(),
+  prior = f3_f_prior,
+  sample_prior = T,
+  chains = 2,
+  cores = 3,
+  )
+
+pp_check(f_m3,nsamples=100)
+pp_check(q_m3, nsamples=100)
+pp_check(d_m3, nsamples=100)
+summary(f_m3)
+
+
+f_m3<-add_criterion(f_m3,criterion="loo")
+
+
+loo_compare(f_m0, f_m1, f_m2, f_m3)
+loo_model_weights(f_m0, f_m1, f_m2, f_m3)
 ```
+
+
+
+
+
 
 
 Visualization of results:
-```{r}
+```{r Hypothesis tests H2}
+
+plot(hypothesis(d_m3,"CPI_change:Years_Current > 0"))
+hypothesis(d_m3,"CPI_change:Years_Current > 0")
+
+
+plot(hypothesis(q_m3,"CPI_change:Years_Current > 0"))
+hypothesis(q_m3,"CPI_change:Years_Current > 0")
+
+
+plot(hypothesis(f_m3,"CPI_change:Years_Current > 0"))
+hypothesis(f_m3,"CPI_change:Years_Current > 0")
+
+
+plot(hypothesis(d_m3,"CPI_change:Years_Current > 0"))
+hypothesis(d_m3,"CPI_change:Years_Current > 0")
 
 ```
 
