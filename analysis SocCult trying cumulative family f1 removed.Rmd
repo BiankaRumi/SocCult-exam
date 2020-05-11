@@ -3,8 +3,7 @@ title: "Analysis SocCult"
 output: 
   md_document:
       variant: markdown_github
-editor_options: 
-  chunk_output_type: inline
+
 ---
 
 ```{r setup, include=FALSE}
