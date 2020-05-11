@@ -23,29 +23,25 @@ pacman::p_load(tidyverse,brms)
 
 ```{r echo=TRUE}
 #read the two datasets
-
-
+combined_eng <- read_csv("combined_eng.csv")
+combined_dan<-read_csv("combined_danish.csv")
 
 #merge the two datasets
 
+combined<-merge(combined_dan, combined_eng,all=T)
 
-combined<-read.csv("combined_test.csv")
+
 combined$d_data<-as.numeric(combined$d_data)
 combined$q_data<-as.numeric(combined$q_data)
 combined$f_data<-as.numeric(combined$f_data)
 
 
-combined$d<-ifelse(is.na(combined$d_data), F, T)
-
-combined$f<-ifelse(is.na(combined$f_data), F, T)
-
-combined$q<-ifelse(is.na(combined$q_data), F, T)
-class(combined$q)
-
 
 #make a column for CPI_change
 
 combined$CPI_change<-combined$CPI_current-combined$CPI_native
+
+set.seed(1999)
 ```
 
 
@@ -120,9 +116,9 @@ Each of these fir the 3 different outcome variables, so 6 models.
 ################################## H1 ############################### 
 
 ```{r}
-# I try to make a multivariate model for H1 basic
+
 #First, I will define my models:
- # I cannot design the priors  and the family individually in this so I try to make different formulas for each
+
 
 f0_d<-bf(d_data ~ 1 + d_condition) #bernoulli
 f0_q<-bf(q_data ~ 1 + q_condition)#cumulative?
@@ -150,6 +146,7 @@ Making the priors for m0
 hist(combined$d_data)
 hist(combined$f_data)
 hist(combined$q_data)
+
 get_prior(f0_d, combined, bernoulli())
 
 f0_d_prior<-c(
@@ -165,6 +162,7 @@ f0_d_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "d_m0_prior"
   )
 
 pp_check(f0_d_prior_m,nsamples=1000)
@@ -187,6 +185,7 @@ f1_d_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "d_m1_prior"
   )
 
 
@@ -212,6 +211,7 @@ f2_d_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "d_m2_prior"
   )
 
 
@@ -240,6 +240,7 @@ d_m0 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "d_m0"
   )
 
 summary(d_m0)
@@ -255,6 +256,7 @@ d_m1 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "d_m1"
   )
 
 summary(d_m1)
@@ -270,6 +272,7 @@ d_m2 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "d_m2"
   )
 
 summary(d_m2)
@@ -309,6 +312,7 @@ f0_q_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "q_m0_prior"
   )
 
 pp_check(f0_q_prior_m,nsamples=100)
@@ -339,6 +343,7 @@ f1_q_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "q_m1_prior"
   )
 
 pp_check(f1_q_prior_m,nsamples=100)
@@ -368,6 +373,7 @@ f2_q_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "q_m2_prior"
   )
 
 pp_check(f2_q_prior_m,nsamples=100)
@@ -388,6 +394,7 @@ q_m0 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "q_m0"
   )
 
 summary(q_m0)
@@ -400,6 +407,7 @@ q_m1 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "q_m1"
   )
 
 summary(q_m1)
@@ -412,6 +420,7 @@ q_m2 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "q_m2"
   )
 
 summary(q_m2)
@@ -447,6 +456,7 @@ f0_f_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "f_m0_prior"
   )
 
 pp_check(f0_f_prior_m,nsamples=100)
@@ -474,6 +484,7 @@ f1_f_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "f_m1_prior"
   )
 
 pp_check(f1_f_prior_m,nsamples=100)
@@ -502,6 +513,7 @@ f2_f_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "f_m2_prior"
   )
 
 pp_check(f2_f_prior_m,nsamples=100)
@@ -528,6 +540,7 @@ f_m0 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "f_m0"
   )
 
 pp_check(f_m0,nsamples=100)
@@ -541,6 +554,7 @@ f_m1 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "f_m1"
   )
 
 pp_check(f_m1, nsamples=100)
@@ -554,6 +568,7 @@ f_m2 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "f_m2"
   )
 
 pp_check(f_m2,nsamples=100)
@@ -649,6 +664,7 @@ f3_d_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "d_m3_prior"
   )
 
 pp_check(f3_d_prior_m,nsamples=1000)
@@ -672,6 +688,7 @@ d_m3 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "d_m3"
   )
 
 summary(d_m3)
@@ -715,6 +732,7 @@ f3_q_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "q_m3_prior"
   )
 
 pp_check(f3_q_prior_m,nsamples=100)
@@ -735,6 +753,7 @@ q_m3 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "q_m3"
   )
 
 summary(q_m3)
@@ -778,6 +797,7 @@ f3_f_prior_m <- brm(
   sample_prior = "only",
   chains = 2,
   cores = 3,
+  file = "f_m3_prior"
   )
 
 pp_check(f3_f_prior_m,nsamples=100)
@@ -804,6 +824,7 @@ f_m3 <- brm(
   sample_prior = T,
   chains = 2,
   cores = 3,
+  file = "f_m3"
   )
 
 pp_check(f_m3,nsamples=100)
@@ -840,16 +861,12 @@ plot(hypothesis(f_m3,"CPI_change:Years_Current > 0"))
 hypothesis(f_m3,"CPI_change:Years_Current > 0")
 
 
-plot(hypothesis(d_m3,"CPI_change:Years_Current > 0"))
-hypothesis(d_m3,"CPI_change:Years_Current > 0")
+
 
 ```
 
 
-Model comparisons:
-```{r}
 
-```
 
 ### Identify your model[s] 
 * likelihood function

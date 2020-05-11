@@ -1,0 +1,1171 @@
+"","ID","Age","Gender","Education","CogSci","CPI_native","CPI_current","NativeCountry","CurrentCountry","Years_Current","d_condition","d_data","q_condition","q_data","f_condition","f_data"
+"1:1","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18","Dilemma1","0",NA,NA,NA,NA
+"1:2","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24","Dilemma1","0",NA,NA,NA,NA
+"1:3","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25","Dilemma1","0",NA,NA,NA,NA
+"1:4","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46","Dilemma1","0",NA,NA,NA,NA
+"1:5","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22","Dilemma1","1",NA,NA,NA,NA
+"1:6","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52","Dilemma1","0",NA,NA,NA,NA
+"1:7","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52","Dilemma1","1",NA,NA,NA,NA
+"1:8","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59","Dilemma1","0",NA,NA,NA,NA
+"1:9","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20","Dilemma1","0",NA,NA,NA,NA
+"1:10","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52","Dilemma1","1",NA,NA,NA,NA
+"1:11","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51","Dilemma1","1",NA,NA,NA,NA
+"1:12","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50","Dilemma1","1",NA,NA,NA,NA
+"1:13","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20","Dilemma1","1",NA,NA,NA,NA
+"1:14","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48","Dilemma1","1",NA,NA,NA,NA
+"1:15","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57","Dilemma1","0",NA,NA,NA,NA
+"1:16","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55","Dilemma1","1",NA,NA,NA,NA
+"1:17","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63","Dilemma1","1",NA,NA,NA,NA
+"1:18","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44","Dilemma1","1",NA,NA,NA,NA
+"1:19","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60","Dilemma1","1",NA,NA,NA,NA
+"1:20","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18","Dilemma1","0",NA,NA,NA,NA
+"1:21","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45","Dilemma1","1",NA,NA,NA,NA
+"1:22","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18","Dilemma1","0",NA,NA,NA,NA
+"1:23","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49","Dilemma1","0",NA,NA,NA,NA
+"1:24","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52","Dilemma1","0",NA,NA,NA,NA
+"1:25","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47","Dilemma1","1",NA,NA,NA,NA
+"1:26","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25","Dilemma1","1",NA,NA,NA,NA
+"1:27","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25","Dilemma1","1",NA,NA,NA,NA
+"1:28","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:29","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11","Dilemma1","0",NA,NA,NA,NA
+"1:30","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9","Dilemma1","1",NA,NA,NA,NA
+"1:31","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12","Dilemma1","1",NA,NA,NA,NA
+"1:32","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13","Dilemma1","0",NA,NA,NA,NA
+"1:33","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35","Dilemma1","1",NA,NA,NA,NA
+"1:34","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13","Dilemma1","1",NA,NA,NA,NA
+"1:35","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25","Dilemma1","0",NA,NA,NA,NA
+"1:36","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:37","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10","Dilemma1","0",NA,NA,NA,NA
+"1:38","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11","Dilemma1","0",NA,NA,NA,NA
+"1:39","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:40","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36","Dilemma1","1",NA,NA,NA,NA
+"1:41","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10","Dilemma1","1",NA,NA,NA,NA
+"1:42","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10","Dilemma1","1",NA,NA,NA,NA
+"1:43","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10","Dilemma1","0",NA,NA,NA,NA
+"1:44","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43","Dilemma1","1",NA,NA,NA,NA
+"1:45","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:46","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18","Dilemma2","1",NA,NA,NA,NA
+"1:47","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24","Dilemma2","1",NA,NA,NA,NA
+"1:48","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:49","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46","Dilemma2","1",NA,NA,NA,NA
+"1:50","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22","Dilemma2","1",NA,NA,NA,NA
+"1:51","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52","Dilemma2","0",NA,NA,NA,NA
+"1:52","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52","Dilemma2","1",NA,NA,NA,NA
+"1:53","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59","Dilemma2","1",NA,NA,NA,NA
+"1:54","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20","Dilemma2","0",NA,NA,NA,NA
+"1:55","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52","Dilemma2","1",NA,NA,NA,NA
+"1:56","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51","Dilemma2","1",NA,NA,NA,NA
+"1:57","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50","Dilemma2","1",NA,NA,NA,NA
+"1:58","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20","Dilemma2","0",NA,NA,NA,NA
+"1:59","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48","Dilemma2","1",NA,NA,NA,NA
+"1:60","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57","Dilemma2","1",NA,NA,NA,NA
+"1:61","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55","Dilemma2","0",NA,NA,NA,NA
+"1:62","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63","Dilemma2","1",NA,NA,NA,NA
+"1:63","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44","Dilemma2","1",NA,NA,NA,NA
+"1:64","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60","Dilemma2","1",NA,NA,NA,NA
+"1:65","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18","Dilemma2","1",NA,NA,NA,NA
+"1:66","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45","Dilemma2","0",NA,NA,NA,NA
+"1:67","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18","Dilemma2","1",NA,NA,NA,NA
+"1:68","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49","Dilemma2","1",NA,NA,NA,NA
+"1:69","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52","Dilemma2","1",NA,NA,NA,NA
+"1:70","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47","Dilemma2","1",NA,NA,NA,NA
+"1:71","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:72","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:73","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11","Dilemma2","1",NA,NA,NA,NA
+"1:74","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11","Dilemma2","1",NA,NA,NA,NA
+"1:75","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9","Dilemma2","1",NA,NA,NA,NA
+"1:76","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12","Dilemma2","1",NA,NA,NA,NA
+"1:77","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13","Dilemma2","0",NA,NA,NA,NA
+"1:78","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35","Dilemma2","1",NA,NA,NA,NA
+"1:79","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13","Dilemma2","1",NA,NA,NA,NA
+"1:80","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:81","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11","Dilemma2","0",NA,NA,NA,NA
+"1:82","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10","Dilemma2","1",NA,NA,NA,NA
+"1:83","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11","Dilemma2","1",NA,NA,NA,NA
+"1:84","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11","Dilemma2","1",NA,NA,NA,NA
+"1:85","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36","Dilemma2","1",NA,NA,NA,NA
+"1:86","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10","Dilemma2","1",NA,NA,NA,NA
+"1:87","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10","Dilemma2","1",NA,NA,NA,NA
+"1:88","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10","Dilemma2","1",NA,NA,NA,NA
+"1:89","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43","Dilemma2","1",NA,NA,NA,NA
+"1:90","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11","Dilemma2","1",NA,NA,NA,NA
+"1:91","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,"Q1","4",NA,NA
+"1:92","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,"Q1","3",NA,NA
+"1:93","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,"Q1","5",NA,NA
+"1:94","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,"Q1","5",NA,NA
+"1:95","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,"Q1","3",NA,NA
+"1:96","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q1","5",NA,NA
+"1:97","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q1","5",NA,NA
+"1:98","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,"Q1","4",NA,NA
+"1:99","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q1","5",NA,NA
+"1:100","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q1","2",NA,NA
+"1:101","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,"Q1","3",NA,NA
+"1:102","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,"Q1","5",NA,NA
+"1:103","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q1","2",NA,NA
+"1:104","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,"Q1","3",NA,NA
+"1:105","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,"Q1","5",NA,NA
+"1:106","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,"Q1","5",NA,NA
+"1:107","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,"Q1","5",NA,NA
+"1:108","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,"Q1","5",NA,NA
+"1:109","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,"Q1","4",NA,NA
+"1:110","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q1","3",NA,NA
+"1:111","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,"Q1","5",NA,NA
+"1:112","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q1","3",NA,NA
+"1:113","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,"Q1","4",NA,NA
+"1:114","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q1","6",NA,NA
+"1:115","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,"Q1","5",NA,NA
+"1:116","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,"Q1","5",NA,NA
+"1:117","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,"Q1","2",NA,NA
+"1:118","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,"Q1","2",NA,NA
+"1:119","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,"Q1","4",NA,NA
+"1:120","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,"Q1","5",NA,NA
+"1:121","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,"Q1","4",NA,NA
+"1:122","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,"Q1","3",NA,NA
+"1:123","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,"Q1","4",NA,NA
+"1:124","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,"Q1","4",NA,NA
+"1:125","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,"Q1","3",NA,NA
+"1:126","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q1","4",NA,NA
+"1:127","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q1","5",NA,NA
+"1:128","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q1","4",NA,NA
+"1:129","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q1","5",NA,NA
+"1:130","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,"Q1","4",NA,NA
+"1:131","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q1","3",NA,NA
+"1:132","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,"Q1","5",NA,NA
+"1:133","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,"Q1","5",NA,NA
+"1:134","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,"Q1","3",NA,NA
+"1:135","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,"Q1","4",NA,NA
+"1:136","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,"Q2","5",NA,NA
+"1:137","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,"Q2","4",NA,NA
+"1:138","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,"Q2","6",NA,NA
+"1:139","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,"Q2","6",NA,NA
+"1:140","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,"Q2","4",NA,NA
+"1:141","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q2","6",NA,NA
+"1:142","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q2","5",NA,NA
+"1:143","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,"Q2","4",NA,NA
+"1:144","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q2","5",NA,NA
+"1:145","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q2","3",NA,NA
+"1:146","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,"Q2","3",NA,NA
+"1:147","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,"Q2","5",NA,NA
+"1:148","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q2","2",NA,NA
+"1:149","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,"Q2","5",NA,NA
+"1:150","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,"Q2","5",NA,NA
+"1:151","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,"Q2","5",NA,NA
+"1:152","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,"Q2","5",NA,NA
+"1:153","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,"Q2","5",NA,NA
+"1:154","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,"Q2","5",NA,NA
+"1:155","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q2","4",NA,NA
+"1:156","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,"Q2","5",NA,NA
+"1:157","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q2","3",NA,NA
+"1:158","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,"Q2","5",NA,NA
+"1:159","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q2","6",NA,NA
+"1:160","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,"Q2","5",NA,NA
+"1:161","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,"Q2","6",NA,NA
+"1:162","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,"Q2","4",NA,NA
+"1:163","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,"Q2","3",NA,NA
+"1:164","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,"Q2","4",NA,NA
+"1:165","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,"Q2","5",NA,NA
+"1:166","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,"Q2","3",NA,NA
+"1:167","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,"Q2","3",NA,NA
+"1:168","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,"Q2","4",NA,NA
+"1:169","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,"Q2","5",NA,NA
+"1:170","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,"Q2","3",NA,NA
+"1:171","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q2","4",NA,NA
+"1:172","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q2","5",NA,NA
+"1:173","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q2","4",NA,NA
+"1:174","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q2","5",NA,NA
+"1:175","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,"Q2","4",NA,NA
+"1:176","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q2","6",NA,NA
+"1:177","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,"Q2","4",NA,NA
+"1:178","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,"Q2","5",NA,NA
+"1:179","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,"Q2","4",NA,NA
+"1:180","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,"Q2","4",NA,NA
+"1:181","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,"Q3","2",NA,NA
+"1:182","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,"Q3","5",NA,NA
+"1:183","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,"Q3","5",NA,NA
+"1:184","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,"Q3","6",NA,NA
+"1:185","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,"Q3","4",NA,NA
+"1:186","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q3","4",NA,NA
+"1:187","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q3","5",NA,NA
+"1:188","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,"Q3","5",NA,NA
+"1:189","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q3","5",NA,NA
+"1:190","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q3","3",NA,NA
+"1:191","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,"Q3","4",NA,NA
+"1:192","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,"Q3","5",NA,NA
+"1:193","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q3","3",NA,NA
+"1:194","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,"Q3","5",NA,NA
+"1:195","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,"Q3","5",NA,NA
+"1:196","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,"Q3","5",NA,NA
+"1:197","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,"Q3","5",NA,NA
+"1:198","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,"Q3","6",NA,NA
+"1:199","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,"Q3","5",NA,NA
+"1:200","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q3","5",NA,NA
+"1:201","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,"Q3","5",NA,NA
+"1:202","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q3","3",NA,NA
+"1:203","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,"Q3","4",NA,NA
+"1:204","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q3","6",NA,NA
+"1:205","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,"Q3","5",NA,NA
+"1:206","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,"Q3","5",NA,NA
+"1:207","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,"Q3","6",NA,NA
+"1:208","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,"Q3","3",NA,NA
+"1:209","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,"Q3","4",NA,NA
+"1:210","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,"Q3","5",NA,NA
+"1:211","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,"Q3","3",NA,NA
+"1:212","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,"Q3","4",NA,NA
+"1:213","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,"Q3","4",NA,NA
+"1:214","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,"Q3","5",NA,NA
+"1:215","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,"Q3","6",NA,NA
+"1:216","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q3","5",NA,NA
+"1:217","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q3","4",NA,NA
+"1:218","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q3","5",NA,NA
+"1:219","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q3","5",NA,NA
+"1:220","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,"Q3","4",NA,NA
+"1:221","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q3","5",NA,NA
+"1:222","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,"Q3","6",NA,NA
+"1:223","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,"Q3","6",NA,NA
+"1:224","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,"Q3","4",NA,NA
+"1:225","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,"Q3","4",NA,NA
+"1:226","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,"Q4","4",NA,NA
+"1:227","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,"Q4","3",NA,NA
+"1:228","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,"Q4","4",NA,NA
+"1:229","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,"Q4","3",NA,NA
+"1:230","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,"Q4","4",NA,NA
+"1:231","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q4","4",NA,NA
+"1:232","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q4","5",NA,NA
+"1:233","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,"Q4","3",NA,NA
+"1:234","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q4","3",NA,NA
+"1:235","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q4","1",NA,NA
+"1:236","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,"Q4","2",NA,NA
+"1:237","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,"Q4","5",NA,NA
+"1:238","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,"Q4","1",NA,NA
+"1:239","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,"Q4","2",NA,NA
+"1:240","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,"Q4","5",NA,NA
+"1:241","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,"Q4","2",NA,NA
+"1:242","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,"Q4","5",NA,NA
+"1:243","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,"Q4","4",NA,NA
+"1:244","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,"Q4","4",NA,NA
+"1:245","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q4","3",NA,NA
+"1:246","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,"Q4","4",NA,NA
+"1:247","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,"Q4","2",NA,NA
+"1:248","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,"Q4","3",NA,NA
+"1:249","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,"Q4","5",NA,NA
+"1:250","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,"Q4","5",NA,NA
+"1:251","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,"Q4","3",NA,NA
+"1:252","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,"Q4","1",NA,NA
+"1:253","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,"Q4","1",NA,NA
+"1:254","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,"Q4","3",NA,NA
+"1:255","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,"Q4","1",NA,NA
+"1:256","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,"Q4","3",NA,NA
+"1:257","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,"Q4","4",NA,NA
+"1:258","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,"Q4","3",NA,NA
+"1:259","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,"Q4","2",NA,NA
+"1:260","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,"Q4","1",NA,NA
+"1:261","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q4","3",NA,NA
+"1:262","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q4","1",NA,NA
+"1:263","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q4","2",NA,NA
+"1:264","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,"Q4","2",NA,NA
+"1:265","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,"Q4","3",NA,NA
+"1:266","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,"Q4","1",NA,NA
+"1:267","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,"Q4","4",NA,NA
+"1:268","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,"Q4","3",NA,NA
+"1:269","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,"Q4","4",NA,NA
+"1:270","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,"Q4","2",NA,NA
+"2:1","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face1","5"
+"2:2","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face1","4"
+"2:3","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face1","6"
+"2:4","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face1","6"
+"2:5","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face1","4"
+"2:6","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face1","6"
+"2:7","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face1","6"
+"2:8","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face1","3"
+"2:9","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face1","4"
+"2:10","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face1","5"
+"2:11","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face1","4"
+"2:12","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face1","3"
+"2:13","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face1","3"
+"2:14","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face1","5"
+"2:15","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face1","3"
+"2:16","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face1","6"
+"2:17","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face1","2"
+"2:18","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face1","6"
+"2:19","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face1","6"
+"2:20","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face1","3"
+"2:21","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face1","6"
+"2:22","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face1","3"
+"2:23","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face1","5"
+"2:24","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face1","6"
+"2:25","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face1","5"
+"2:26","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face1","5"
+"2:27","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face1","3"
+"2:28","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face1","3"
+"2:29","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face1","4"
+"2:30","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face1","6"
+"2:31","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face1","6"
+"2:32","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face1","4"
+"2:33","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face1","5"
+"2:34","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face1","5"
+"2:35","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face1","5"
+"2:36","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face1","4"
+"2:37","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face1","4"
+"2:38","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face1","5"
+"2:39","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face1","5"
+"2:40","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face1","3"
+"2:41","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face1","4"
+"2:42","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face1","2"
+"2:43","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face1","4"
+"2:44","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face1","5"
+"2:45","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face1","5"
+"2:46","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face2","4"
+"2:47","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face2","4"
+"2:48","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face2","4"
+"2:49","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face2","6"
+"2:50","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face2","2"
+"2:51","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face2","6"
+"2:52","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face2","6"
+"2:53","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face2","5"
+"2:54","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face2","4"
+"2:55","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face2","3"
+"2:56","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face2","4"
+"2:57","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face2","4"
+"2:58","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face2","3"
+"2:59","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face2","3"
+"2:60","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face2","4"
+"2:61","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face2","6"
+"2:62","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face2","2"
+"2:63","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face2","4"
+"2:64","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face2","5"
+"2:65","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face2","5"
+"2:66","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face2","4"
+"2:67","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face2","2"
+"2:68","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face2","4"
+"2:69","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face2","6"
+"2:70","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face2","5"
+"2:71","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face2","6"
+"2:72","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face2","5"
+"2:73","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face2","4"
+"2:74","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face2","4"
+"2:75","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face2","6"
+"2:76","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face2","4"
+"2:77","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face2","4"
+"2:78","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face2","4"
+"2:79","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face2","5"
+"2:80","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face2","4"
+"2:81","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face2","6"
+"2:82","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face2","5"
+"2:83","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face2","3"
+"2:84","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face2","4"
+"2:85","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face2","3"
+"2:86","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face2","5"
+"2:87","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face2","4"
+"2:88","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face2","4"
+"2:89","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face2","3"
+"2:90","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face2","4"
+"2:91","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face3","3"
+"2:92","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face3","4"
+"2:93","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face3","2"
+"2:94","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face3","6"
+"2:95","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face3","4"
+"2:96","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face3","3"
+"2:97","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face3","6"
+"2:98","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face3","3"
+"2:99","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face3","3"
+"2:100","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face3","5"
+"2:101","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face3","4"
+"2:102","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face3","4"
+"2:103","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face3","2"
+"2:104","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face3","5"
+"2:105","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face3","3"
+"2:106","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face3","3"
+"2:107","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face3","5"
+"2:108","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face3","6"
+"2:109","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face3","3"
+"2:110","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face3","6"
+"2:111","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face3","4"
+"2:112","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face3","2"
+"2:113","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face3","4"
+"2:114","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face3","6"
+"2:115","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face3","4"
+"2:116","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face3","5"
+"2:117","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face3","4"
+"2:118","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face3","3"
+"2:119","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face3","4"
+"2:120","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face3","6"
+"2:121","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face3","5"
+"2:122","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face3","3"
+"2:123","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face3","4"
+"2:124","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face3","5"
+"2:125","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face3","3"
+"2:126","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face3","2"
+"2:127","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face3","5"
+"2:128","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face3","3"
+"2:129","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face3","4"
+"2:130","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face3","3"
+"2:131","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face3","4"
+"2:132","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face3","4"
+"2:133","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face3","5"
+"2:134","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face3","6"
+"2:135","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face3","5"
+"2:136","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face4","4"
+"2:137","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face4","4"
+"2:138","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face4","4"
+"2:139","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face4","6"
+"2:140","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face4","3"
+"2:141","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face4","3"
+"2:142","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face4","6"
+"2:143","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face4","5"
+"2:144","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face4","5"
+"2:145","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face4","3"
+"2:146","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face4","4"
+"2:147","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face4","4"
+"2:148","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face4","1"
+"2:149","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face4","4"
+"2:150","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face4","5"
+"2:151","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face4","3"
+"2:152","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face4","3"
+"2:153","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face4","4"
+"2:154","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face4","4"
+"2:155","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face4","5"
+"2:156","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face4","3"
+"2:157","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face4","3"
+"2:158","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face4","3"
+"2:159","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face4","6"
+"2:160","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face4","5"
+"2:161","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face4","6"
+"2:162","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face4","2"
+"2:163","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face4","3"
+"2:164","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face4","4"
+"2:165","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face4","6"
+"2:166","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face4","5"
+"2:167","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face4","5"
+"2:168","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face4","4"
+"2:169","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face4","3"
+"2:170","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face4","4"
+"2:171","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face4","4"
+"2:172","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face4","5"
+"2:173","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face4","2"
+"2:174","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face4","4"
+"2:175","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face4","3"
+"2:176","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face4","5"
+"2:177","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face4","3"
+"2:178","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face4","3"
+"2:179","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face4","6"
+"2:180","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face4","3"
+"2:181","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face5","5"
+"2:182","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face5","5"
+"2:183","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face5","5"
+"2:184","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face5","6"
+"2:185","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face5","2"
+"2:186","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face5","4"
+"2:187","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face5","6"
+"2:188","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face5","6"
+"2:189","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face5","6"
+"2:190","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face5","5"
+"2:191","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face5","5"
+"2:192","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face5","5"
+"2:193","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face5","3"
+"2:194","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face5","2"
+"2:195","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face5","4"
+"2:196","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face5","4"
+"2:197","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face5","3"
+"2:198","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face5","4"
+"2:199","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face5","6"
+"2:200","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face5","3"
+"2:201","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face5","4"
+"2:202","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face5","3"
+"2:203","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face5","4"
+"2:204","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face5","6"
+"2:205","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face5","5"
+"2:206","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face5","4"
+"2:207","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face5","5"
+"2:208","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face5","4"
+"2:209","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face5","4"
+"2:210","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face5","6"
+"2:211","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face5","4"
+"2:212","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face5","5"
+"2:213","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face5","4"
+"2:214","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face5","5"
+"2:215","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face5","4"
+"2:216","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face5","3"
+"2:217","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face5","5"
+"2:218","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face5","5"
+"2:219","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face5","4"
+"2:220","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face5","3"
+"2:221","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face5","4"
+"2:222","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face5","5"
+"2:223","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face5","3"
+"2:224","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face5","6"
+"2:225","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face5","5"
+"2:226","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face6","5"
+"2:227","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face6","5"
+"2:228","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face6","4"
+"2:229","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face6","6"
+"2:230","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face6","4"
+"2:231","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face6","6"
+"2:232","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face6","6"
+"2:233","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face6","6"
+"2:234","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face6","5"
+"2:235","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face6","5"
+"2:236","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face6","3"
+"2:237","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face6","5"
+"2:238","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face6","3"
+"2:239","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face6","2"
+"2:240","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face6","4"
+"2:241","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face6","5"
+"2:242","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face6","4"
+"2:243","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face6","4"
+"2:244","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face6","6"
+"2:245","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face6","5"
+"2:246","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face6","2"
+"2:247","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face6","3"
+"2:248","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face6","5"
+"2:249","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face6","6"
+"2:250","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face6","4"
+"2:251","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face6","5"
+"2:252","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face6","5"
+"2:253","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face6","2"
+"2:254","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face6","4"
+"2:255","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face6","6"
+"2:256","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face6","4"
+"2:257","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face6","5"
+"2:258","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face6","4"
+"2:259","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face6","5"
+"2:260","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face6","6"
+"2:261","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face6","6"
+"2:262","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face6","5"
+"2:263","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face6","4"
+"2:264","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face6","5"
+"2:265","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face6","3"
+"2:266","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face6","5"
+"2:267","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face6","5"
+"2:268","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face6","4"
+"2:269","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face6","4"
+"2:270","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face6","4"
+"2:271","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face7","2"
+"2:272","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face7","3"
+"2:273","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face7","2"
+"2:274","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face7","6"
+"2:275","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face7","1"
+"2:276","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face7","3"
+"2:277","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face7","6"
+"2:278","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face7","3"
+"2:279","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face7","3"
+"2:280","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face7","3"
+"2:281","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face7","2"
+"2:282","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face7","3"
+"2:283","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face7","2"
+"2:284","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face7","3"
+"2:285","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face7","3"
+"2:286","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face7","2"
+"2:287","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face7","3"
+"2:288","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face7","3"
+"2:289","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face7","4"
+"2:290","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face7","2"
+"2:291","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face7","2"
+"2:292","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face7","2"
+"2:293","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face7","2"
+"2:294","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face7","6"
+"2:295","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face7","4"
+"2:296","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face7","4"
+"2:297","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face7","2"
+"2:298","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face7","3"
+"2:299","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face7","4"
+"2:300","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face7","6"
+"2:301","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face7","4"
+"2:302","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face7","3"
+"2:303","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face7","3"
+"2:304","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face7","5"
+"2:305","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face7","4"
+"2:306","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face7","4"
+"2:307","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face7","3"
+"2:308","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face7","3"
+"2:309","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face7","4"
+"2:310","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face7","3"
+"2:311","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face7","3"
+"2:312","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face7","5"
+"2:313","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face7","4"
+"2:314","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face7","4"
+"2:315","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face7","3"
+"2:316","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face8","3"
+"2:317","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face8","3"
+"2:318","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face8","4"
+"2:319","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face8","5"
+"2:320","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face8","3"
+"2:321","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face8","3"
+"2:322","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face8","6"
+"2:323","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face8","4"
+"2:324","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face8","4"
+"2:325","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face8","4"
+"2:326","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face8","2"
+"2:327","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face8","4"
+"2:328","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face8","2"
+"2:329","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face8","2"
+"2:330","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face8","3"
+"2:331","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face8","3"
+"2:332","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face8","3"
+"2:333","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face8","3"
+"2:334","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face8","4"
+"2:335","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face8","3"
+"2:336","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face8","3"
+"2:337","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face8","2"
+"2:338","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face8","3"
+"2:339","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face8","6"
+"2:340","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face8","5"
+"2:341","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face8","5"
+"2:342","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face8","3"
+"2:343","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face8","4"
+"2:344","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face8","4"
+"2:345","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face8","6"
+"2:346","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face8","5"
+"2:347","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face8","4"
+"2:348","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face8","3"
+"2:349","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face8","5"
+"2:350","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face8","4"
+"2:351","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face8","3"
+"2:352","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face8","5"
+"2:353","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face8","4"
+"2:354","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face8","4"
+"2:355","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face8","3"
+"2:356","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face8","4"
+"2:357","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face8","4"
+"2:358","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face8","4"
+"2:359","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face8","4"
+"2:360","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face8","2"
+"2:361","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face9","3"
+"2:362","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face9","4"
+"2:363","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face9","4"
+"2:364","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face9","4"
+"2:365","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face9","3"
+"2:366","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face9","4"
+"2:367","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face9","6"
+"2:368","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face9","5"
+"2:369","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face9","4"
+"2:370","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face9","4"
+"2:371","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face9","2"
+"2:372","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face9","4"
+"2:373","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face9","2"
+"2:374","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face9","3"
+"2:375","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face9","4"
+"2:376","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face9","3"
+"2:377","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face9","2"
+"2:378","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face9","3"
+"2:379","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face9","3"
+"2:380","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face9","5"
+"2:381","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face9","2"
+"2:382","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face9","2"
+"2:383","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face9","4"
+"2:384","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face9","5"
+"2:385","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face9","5"
+"2:386","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face9","5"
+"2:387","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face9","3"
+"2:388","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face9","2"
+"2:389","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face9","4"
+"2:390","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face9","6"
+"2:391","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face9","4"
+"2:392","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face9","4"
+"2:393","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face9","4"
+"2:394","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face9","5"
+"2:395","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face9","3"
+"2:396","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face9","5"
+"2:397","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face9","3"
+"2:398","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face9","3"
+"2:399","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face9","4"
+"2:400","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face9","3"
+"2:401","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face9","3"
+"2:402","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face9","4"
+"2:403","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face9","4"
+"2:404","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face9","3"
+"2:405","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face9","3"
+"2:406","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face10","4"
+"2:407","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face10","4"
+"2:408","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face10","4"
+"2:409","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face10","6"
+"2:410","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face10","5"
+"2:411","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face10","6"
+"2:412","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face10","6"
+"2:413","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face10","5"
+"2:414","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face10","5"
+"2:415","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face10","5"
+"2:416","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face10","2"
+"2:417","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face10","4"
+"2:418","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face10","2"
+"2:419","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face10","2"
+"2:420","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face10","4"
+"2:421","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face10","2"
+"2:422","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face10","4"
+"2:423","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face10","3"
+"2:424","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face10","5"
+"2:425","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face10","1"
+"2:426","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face10","2"
+"2:427","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face10","3"
+"2:428","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face10","3"
+"2:429","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face10","6"
+"2:430","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face10","5"
+"2:431","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face10","6"
+"2:432","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face10","4"
+"2:433","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face10","3"
+"2:434","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face10","4"
+"2:435","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face10","6"
+"2:436","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face10","4"
+"2:437","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face10","4"
+"2:438","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face10","4"
+"2:439","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face10","5"
+"2:440","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face10","2"
+"2:441","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face10","3"
+"2:442","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face10","5"
+"2:443","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face10","5"
+"2:444","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face10","4"
+"2:445","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face10","3"
+"2:446","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face10","5"
+"2:447","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face10","4"
+"2:448","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face10","3"
+"2:449","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face10","3"
+"2:450","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face10","4"
+"2:451","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face11","4"
+"2:452","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face11","4"
+"2:453","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face11","6"
+"2:454","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face11","5"
+"2:455","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face11","4"
+"2:456","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face11","6"
+"2:457","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face11","6"
+"2:458","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face11","6"
+"2:459","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face11","5"
+"2:460","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face11","5"
+"2:461","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face11","5"
+"2:462","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face11","5"
+"2:463","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face11","3"
+"2:464","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face11","2"
+"2:465","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face11","5"
+"2:466","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face11","5"
+"2:467","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face11","6"
+"2:468","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face11","5"
+"2:469","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face11","6"
+"2:470","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face11","6"
+"2:471","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face11","3"
+"2:472","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face11","4"
+"2:473","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face11","4"
+"2:474","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face11","6"
+"2:475","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face11","5"
+"2:476","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face11","6"
+"2:477","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face11","4"
+"2:478","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face11","4"
+"2:479","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face11","4"
+"2:480","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face11","6"
+"2:481","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face11","4"
+"2:482","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face11","4"
+"2:483","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face11","5"
+"2:484","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face11","5"
+"2:485","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face11","2"
+"2:486","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face11","5"
+"2:487","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face11","6"
+"2:488","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face11","5"
+"2:489","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face11","4"
+"2:490","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face11","3"
+"2:491","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face11","5"
+"2:492","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face11","5"
+"2:493","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face11","4"
+"2:494","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face11","3"
+"2:495","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face11","5"
+"2:496","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face12","5"
+"2:497","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face12","5"
+"2:498","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face12","6"
+"2:499","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face12","5"
+"2:500","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face12","3"
+"2:501","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face12","4"
+"2:502","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face12","6"
+"2:503","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face12","5"
+"2:504","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face12","4"
+"2:505","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face12","5"
+"2:506","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face12","4"
+"2:507","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face12","5"
+"2:508","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face12","3"
+"2:509","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face12","1"
+"2:510","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face12","4"
+"2:511","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face12","4"
+"2:512","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face12","5"
+"2:513","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face12","5"
+"2:514","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face12","6"
+"2:515","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face12","2"
+"2:516","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face12","3"
+"2:517","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face12","3"
+"2:518","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face12","3"
+"2:519","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face12","5"
+"2:520","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face12","5"
+"2:521","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face12","5"
+"2:522","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face12","5"
+"2:523","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face12","4"
+"2:524","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face12","4"
+"2:525","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face12","6"
+"2:526","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face12","4"
+"2:527","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face12","5"
+"2:528","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face12","5"
+"2:529","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face12","5"
+"2:530","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face12","3"
+"2:531","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face12","5"
+"2:532","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face12","3"
+"2:533","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face12","3"
+"2:534","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face12","4"
+"2:535","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face12","3"
+"2:536","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face12","5"
+"2:537","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face12","5"
+"2:538","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face12","4"
+"2:539","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face12","3"
+"2:540","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face12","4"
+"2:541","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face13","2"
+"2:542","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face13","3"
+"2:543","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face13","5"
+"2:544","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face13","4"
+"2:545","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face13","3"
+"2:546","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face13","5"
+"2:547","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face13","6"
+"2:548","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face13","3"
+"2:549","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face13","5"
+"2:550","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face13","5"
+"2:551","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face13","3"
+"2:552","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face13","5"
+"2:553","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face13","2"
+"2:554","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face13","1"
+"2:555","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face13","4"
+"2:556","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face13","5"
+"2:557","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face13","5"
+"2:558","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face13","5"
+"2:559","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face13","3"
+"2:560","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face13","1"
+"2:561","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face13","1"
+"2:562","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face13","3"
+"2:563","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face13","4"
+"2:564","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face13","5"
+"2:565","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face13","5"
+"2:566","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face13","4"
+"2:567","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face13","4"
+"2:568","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face13","4"
+"2:569","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face13","4"
+"2:570","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face13","6"
+"2:571","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face13","3"
+"2:572","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face13","4"
+"2:573","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face13","4"
+"2:574","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face13","5"
+"2:575","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face13","5"
+"2:576","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face13","2"
+"2:577","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face13","4"
+"2:578","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face13","3"
+"2:579","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face13","3"
+"2:580","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face13","3"
+"2:581","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face13","4"
+"2:582","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face13","4"
+"2:583","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face13","4"
+"2:584","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face13","3"
+"2:585","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face13","2"
+"2:586","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face14","3"
+"2:587","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face14","3"
+"2:588","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face14","4"
+"2:589","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face14","3"
+"2:590","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face14","2"
+"2:591","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face14","5"
+"2:592","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face14","6"
+"2:593","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face14","6"
+"2:594","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face14","4"
+"2:595","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face14","3"
+"2:596","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face14","2"
+"2:597","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face14","5"
+"2:598","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face14","2"
+"2:599","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face14","1"
+"2:600","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face14","3"
+"2:601","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face14","5"
+"2:602","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face14","5"
+"2:603","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face14","2"
+"2:604","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face14","3"
+"2:605","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face14","1"
+"2:606","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face14","1"
+"2:607","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face14","2"
+"2:608","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face14","5"
+"2:609","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face14","4"
+"2:610","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face14","4"
+"2:611","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face14","5"
+"2:612","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face14","2"
+"2:613","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face14","4"
+"2:614","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face14","4"
+"2:615","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face14","6"
+"2:616","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face14","3"
+"2:617","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face14","4"
+"2:618","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face14","4"
+"2:619","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face14","5"
+"2:620","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face14","1"
+"2:621","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face14","3"
+"2:622","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face14","2"
+"2:623","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face14","3"
+"2:624","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face14","3"
+"2:625","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face14","3"
+"2:626","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face14","2"
+"2:627","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face14","4"
+"2:628","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face14","3"
+"2:629","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face14","3"
+"2:630","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face14","5"
+"2:631","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face15","4"
+"2:632","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face15","3"
+"2:633","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face15","2"
+"2:634","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face15","5"
+"2:635","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face15","2"
+"2:636","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face15","4"
+"2:637","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face15","6"
+"2:638","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face15","4"
+"2:639","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face15","4"
+"2:640","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face15","3"
+"2:641","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face15","2"
+"2:642","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face15","4"
+"2:643","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face15","1"
+"2:644","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face15","2"
+"2:645","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face15","4"
+"2:646","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face15","2"
+"2:647","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face15","4"
+"2:648","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face15","3"
+"2:649","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face15","4"
+"2:650","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face15","4"
+"2:651","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face15","2"
+"2:652","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face15","4"
+"2:653","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face15","2"
+"2:654","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face15","6"
+"2:655","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face15","5"
+"2:656","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face15","4"
+"2:657","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face15","2"
+"2:658","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face15","4"
+"2:659","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face15","4"
+"2:660","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face15","4"
+"2:661","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face15","3"
+"2:662","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face15","3"
+"2:663","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face15","4"
+"2:664","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face15","5"
+"2:665","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face15","1"
+"2:666","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face15","6"
+"2:667","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face15","5"
+"2:668","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face15","4"
+"2:669","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face15","4"
+"2:670","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face15","3"
+"2:671","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face15","4"
+"2:672","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face15","4"
+"2:673","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face15","3"
+"2:674","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face15","2"
+"2:675","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face15","3"
+"2:676","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face16","3"
+"2:677","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face16","4"
+"2:678","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face16","4"
+"2:679","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face16","5"
+"2:680","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face16","1"
+"2:681","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face16","5"
+"2:682","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face16","6"
+"2:683","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face16","5"
+"2:684","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face16","5"
+"2:685","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face16","3"
+"2:686","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face16","2"
+"2:687","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face16","5"
+"2:688","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face16","3"
+"2:689","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face16","3"
+"2:690","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face16","4"
+"2:691","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face16","4"
+"2:692","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face16","4"
+"2:693","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face16","3"
+"2:694","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face16","4"
+"2:695","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face16","5"
+"2:696","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face16","2"
+"2:697","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face16","2"
+"2:698","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face16","3"
+"2:699","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face16","6"
+"2:700","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face16","5"
+"2:701","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face16","4"
+"2:702","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face16","4"
+"2:703","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face16","4"
+"2:704","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face16","4"
+"2:705","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face16","6"
+"2:706","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face16","3"
+"2:707","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face16","4"
+"2:708","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face16","4"
+"2:709","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face16","4"
+"2:710","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face16","4"
+"2:711","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face16","5"
+"2:712","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face16","5"
+"2:713","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face16","4"
+"2:714","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face16","3"
+"2:715","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face16","3"
+"2:716","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face16","4"
+"2:717","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face16","5"
+"2:718","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face16","3"
+"2:719","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face16","2"
+"2:720","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face16","4"
+"2:721","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face17","3"
+"2:722","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face17","2"
+"2:723","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face17","5"
+"2:724","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face17","4"
+"2:725","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face17","3"
+"2:726","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face17","5"
+"2:727","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face17","6"
+"2:728","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face17","6"
+"2:729","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face17","4"
+"2:730","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face17","4"
+"2:731","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face17","2"
+"2:732","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face17","5"
+"2:733","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face17","1"
+"2:734","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face17","4"
+"2:735","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face17","4"
+"2:736","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face17","5"
+"2:737","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face17","5"
+"2:738","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face17","4"
+"2:739","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face17","6"
+"2:740","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face17","1"
+"2:741","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face17","4"
+"2:742","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face17","2"
+"2:743","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face17","4"
+"2:744","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face17","6"
+"2:745","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face17","5"
+"2:746","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face17","4"
+"2:747","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face17","4"
+"2:748","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face17","4"
+"2:749","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face17","4"
+"2:750","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face17","6"
+"2:751","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face17","3"
+"2:752","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face17","4"
+"2:753","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face17","4"
+"2:754","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face17","5"
+"2:755","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face17","3"
+"2:756","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face17","3"
+"2:757","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face17","5"
+"2:758","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face17","5"
+"2:759","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face17","4"
+"2:760","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face17","3"
+"2:761","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face17","4"
+"2:762","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face17","4"
+"2:763","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face17","4"
+"2:764","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face17","3"
+"2:765","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face17","5"
+"2:766","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face18","3"
+"2:767","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face18","5"
+"2:768","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face18","6"
+"2:769","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face18","3"
+"2:770","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face18","4"
+"2:771","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face18","6"
+"2:772","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face18","6"
+"2:773","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face18","4"
+"2:774","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face18","5"
+"2:775","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face18","5"
+"2:776","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face18","2"
+"2:777","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face18","5"
+"2:778","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face18","3"
+"2:779","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face18","2"
+"2:780","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face18","4"
+"2:781","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face18","5"
+"2:782","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face18","5"
+"2:783","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face18","4"
+"2:784","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face18","5"
+"2:785","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face18","4"
+"2:786","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face18","1"
+"2:787","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face18","3"
+"2:788","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face18","4"
+"2:789","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face18","6"
+"2:790","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face18","5"
+"2:791","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face18","5"
+"2:792","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face18","3"
+"2:793","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face18","2"
+"2:794","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face18","4"
+"2:795","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face18","6"
+"2:796","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face18","3"
+"2:797","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face18","3"
+"2:798","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face18","3"
+"2:799","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face18","5"
+"2:800","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face18","6"
+"2:801","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face18","6"
+"2:802","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face18","4"
+"2:803","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face18","3"
+"2:804","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face18","3"
+"2:805","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face18","3"
+"2:806","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face18","4"
+"2:807","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face18","5"
+"2:808","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face18","4"
+"2:809","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face18","3"
+"2:810","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face18","4"
+"2:811","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face19","4"
+"2:812","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face19","3"
+"2:813","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face19","5"
+"2:814","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face19","5"
+"2:815","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face19","3"
+"2:816","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face19","6"
+"2:817","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face19","6"
+"2:818","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face19","6"
+"2:819","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face19","6"
+"2:820","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face19","4"
+"2:821","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face19","5"
+"2:822","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face19","5"
+"2:823","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face19","4"
+"2:824","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face19","2"
+"2:825","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face19","4"
+"2:826","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face19","6"
+"2:827","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face19","6"
+"2:828","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face19","4"
+"2:829","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face19","6"
+"2:830","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face19","3"
+"2:831","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face19","2"
+"2:832","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face19","2"
+"2:833","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face19","6"
+"2:834","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face19","6"
+"2:835","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face19","5"
+"2:836","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face19","6"
+"2:837","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face19","5"
+"2:838","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face19","3"
+"2:839","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face19","4"
+"2:840","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face19","6"
+"2:841","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face19","3"
+"2:842","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face19","4"
+"2:843","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face19","4"
+"2:844","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face19","5"
+"2:845","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face19","5"
+"2:846","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face19","6"
+"2:847","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face19","5"
+"2:848","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face19","2"
+"2:849","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face19","4"
+"2:850","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face19","3"
+"2:851","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face19","5"
+"2:852","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face19","4"
+"2:853","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face19","5"
+"2:854","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face19","3"
+"2:855","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face19","3"
+"2:856","1","21","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face20","4"
+"2:857","2","24","Kvinde","Gymnasial uddannelse","Ja",87,87,"Danmark","Danmark","24",NA,NA,NA,NA,"Face20","4"
+"2:858","3","25","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","25",NA,NA,NA,NA,"Face20","6"
+"2:859","17","46","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","46",NA,NA,NA,NA,"Face20","4"
+"2:860","31","22","Mand","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","22",NA,NA,NA,NA,"Face20","4"
+"2:861","6","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face20","5"
+"2:862","24","53","Mand","Kandidat","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face20","6"
+"2:863","8","59","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","59",NA,NA,NA,NA,"Face20","6"
+"2:864","22","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face20","6"
+"2:865","10","52","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face20","4"
+"2:866","15","51","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","51",NA,NA,NA,NA,"Face20","4"
+"2:867","12","50","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","50",NA,NA,NA,NA,"Face20","5"
+"2:868","26","20","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","20",NA,NA,NA,NA,"Face20","3"
+"2:869","14","48","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","48",NA,NA,NA,NA,"Face20","2"
+"2:870","19","57","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","57",NA,NA,NA,NA,"Face20","4"
+"2:871","29","55","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","55",NA,NA,NA,NA,"Face20","6"
+"2:872","43","63","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","63",NA,NA,NA,NA,"Face20","5"
+"2:873","44","44","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","44",NA,NA,NA,NA,"Face20","4"
+"2:874","27","60","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","60",NA,NA,NA,NA,"Face20","6"
+"2:875","37","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face20","3"
+"2:876","21","45","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","45",NA,NA,NA,NA,"Face20","2"
+"2:877","35","18","Kvinde","Folkeskole","Nej",87,87,"Danmark","Danmark","18",NA,NA,NA,NA,"Face20","2"
+"2:878","28","49","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","49",NA,NA,NA,NA,"Face20","5"
+"2:879","32","52","Kvinde","Bachelor","Nej",87,87,"Danmark","Danmark","52",NA,NA,NA,NA,"Face20","6"
+"2:880","40","47","Kvinde","Gymnasial uddannelse","Nej",87,87,"Danmark","Danmark","47",NA,NA,NA,NA,"Face20","5"
+"2:881","20","48","Mand","Gymnasial uddannelse","Nej",82,87,"Holland","Danmark","25",NA,NA,NA,NA,"Face20","5"
+"2:882","23","27","Mand","Kandidat","Nej",20,87,"Irak","Danmark","25",NA,NA,NA,NA,"Face20","5"
+"2:883","5","16","Kvinde","Folkeskole","Nej",73,87,"Japan","Danmark","11",NA,NA,NA,NA,"Face20","4"
+"2:884","13","49","Mand","PhD","Nej",60,87,"Litauen","Danmark","11",NA,NA,NA,NA,"Face20","4"
+"2:885","33","44","Mand","Kandidat","Nej",44,87,"Rumænien","Danmark","9",NA,NA,NA,NA,"Face20","6"
+"2:886","42","50","Kvinde","Gymnasial uddannelse","Nej",44,87,"Rumænien","Danmark","12",NA,NA,NA,NA,"Face20","3"
+"2:887","41","55","Mand","Bachelor","Ja",44,87,"Rumænien","Danmark","13",NA,NA,NA,NA,"Face20","4"
+"2:888","38","39","Mand","Kandidat","Nej",38,87,"Sri Lanka","Danmark","35",NA,NA,NA,NA,"Face20","4"
+"2:889","39","49","Mand","Kandidat","Nej",80,87,"Tyskland","Sverige","13",NA,NA,NA,NA,"Face20","5"
+"2:890","45","54","Kvinde","Gymnasial uddannelse","Nej",80,87,"Tyskland","Danmark","25",NA,NA,NA,NA,"Face20","4"
+"2:891","7","48","Mand","PhD","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face20","4"
+"2:892","25","49","Kvinde","Gymnasial uddannelse","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face20","6"
+"2:893","4","46","Kvinde","Kandidat","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face20","4"
+"2:894","36","18","Mand","Folkeskole","Nej",44,87,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face20","4"
+"2:895","16","40","Kvinde","Kandidat","Nej",44,87,"Ungarn","Ungarn","36",NA,NA,NA,NA,"Face20","3"
+"2:896","34","17","Kvinde","Folkeskole","Nej",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face20","4"
+"2:897","18","56","Kvinde","Kandidat","Ja",44,87,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face20","4"
+"2:898","11","16","Mand","Folkeskole","Nej",44,85,"Ungarn","Danmark","10",NA,NA,NA,NA,"Face20","4"
+"2:899","9","43","Kvinde","PhD","Nej",44,44,"Ungarn","Ungarn","43",NA,NA,NA,NA,"Face20","4"
+"2:900","30","55","Kvinde","Kandidat","Nej",44,44,"Ungarn","Danmark","11",NA,NA,NA,NA,"Face20","3"

@@ -18,7 +18,7 @@ pacman::p_load(tidyverse)
 
 ```{r}
 #read the data
-df<-read.csv("testfil_english.csv",sep=";")
+df<-read.csv("data_eng.csv",sep=";")
 
 #read a list of CPI's for native cpi
 CPI<-read.csv("CPI_native_eng.csv", sep=";")
@@ -177,5 +177,5 @@ combined$q_condition<-q_long$q_condition
 combined<-smartbind(d_long,q_long)
 
 combined<-smartbind(combined,face_long)
-write.csv(combined, "combined_test.csv")
+write.csv(combined, "combined_eng.csv")
 ```

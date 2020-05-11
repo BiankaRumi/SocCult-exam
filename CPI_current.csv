@@ -1,181 +1,181 @@
-Native_Country_eng;CPI_2019;CurrentCountry
-Denmark;87;Danmark
-New Zealand;87;New Zealand
-Finland;86;Finland
-Singapore;85;Singapore
-Sweden;85;Sverige
-Switzerland;85;Schweiz
-Norway;84;Norge
-Netherlands;82;Holland
-Germany;80;Tyskland
-Luxembourg;80;Luxembourg
-Iceland;78;Island
-Australia;77;Australien
-Austria;77;Østrig
-Canada;77;Canada
-United Kingdom;77;Storbritannien
-Hong Kong;76;Hong Kong
-Belgium;75;Belgien
-Estonia;74;Estland
-Ireland;74;Irland
-Japan;73;Japan
-United Arab Emirates;71;Forenede Arabiske Emirater
-Uruguay;71;Uruguay
-France;69;Frankrig
-United States of America;69;Amerikas Forenede Stater
-Bhutan;68;Bhutan
-Chile;67;Chile
-Seychelles;66;Seychellerne
-Taiwan;65;Taiwan
-Bahamas;64;Bahamas
-Barbados;62;Barbados
-Portugal;62;Portugal
-Qatar;62;Qatar
-Spain;62;Spanien
-Botswana;61;Botswana
-Brunei Darussalam;60;Brunei Darussalam
-Israel;60;Israel
-Lithuania;60;Litauen
-Slovenia;60;Slovenien
-Korea, South;59;Korea, Syd
-Saint Vincent and the Grenadines;59;Saint Vincent og Grenadinerne
-Cabo Verde;58;Cabo Verde
-Cyprus;58;Cypern
-Poland;58;Polen
-Costa Rica;56;Costa Rica
-Czech Republic;56;Tjekkiet
-Georgia;56;Georgien
-Latvia;56;Letland
-Dominica;55;Dominica
-Saint Lucia;55;Saint Lucia
-Malta;54;Malta
-Grenada;53;Grenada
-Italy;53;Italien
-Malaysia;53;Malaysia
-Rwanda;53;Rwanda
-Saudi Arabia;53;Saudi Arabien
-Mauritius;52;Mauritius
-Namibia;52;Namibia
-Oman;52;Oman
-Slovakia;50;Slovakiet
-Cuba;48;Cuba
-Greece;48;Grækenland
-Jordan;48;Jordan
-Croatia;47;Kroatien
-Sao Tome and Principe;46;Sao Tomé og Principe
-Vanuatu;46;Vanuatu
-Argentina;45;Argentina
-Belarus;45;Hviderusland
-Montenegro;45;Montenegro
-Senegal;45;Senegal
-Hungary;44;Ungarn
-Romania;44;Rumænien
-South Africa;44;Sydafrika
-Suriname;44;Surinam
-Bulgaria;43;Bulgarien
-Jamaica;43;Jamaica
-Tunisia;43;Tunesien
-Armenia;42;Armenien
-Bahrain;42;Bahrain
-Solomon Islands;42;Salomonøerne
-Benin;41;Benin
-China;41;Kina
-Ghana;41;Ghana
-India;41;Indien
-Morocco;41;Marokko
-Burkina Faso;40;Burkina Faso
-Guyana;40;Guyana
-Indonesia;40;Indonesien
-Kuwait;40;Kuwait
-Lesotho;40;Lesotho
-Trinidad and Tobago;40;Trinidad og Tobago
-Serbia;39;Serbien
-Turkey;39;Tyrkiet
-Ecuador;38;Ecuador
-Sri Lanka;38;Sri Lanka
-Timor-Leste;38;Østtimor
-Colombia;37;Colombia
-Ethiopia;37;Etiopien
-Gambia;37;Gambia
-Tanzania;37;Tanzania
-Vietnam;37;Vietnam
-Bosnia and Herzegovina;36;Bosnien-Hercegovina
-Kosovo;36;Kosovo
-Panama;36;Panama
-Peru;36;Peru
-Thailand;36;Thailand
-Albania;35;Albanien
-Algeria;35;Algeriet
-Brazil;35;Brasilien
-Cote d'Ivoire;35;Elfenbenskysten
-Egypt;35;Egypten
-North Macedonia;35;Nordlige Makedonien
-Mongolia;35;Mongoliet
-El Salvador;34;El Salvador
-Kazakhstan;34;Kasakhstan
-Nepal;34;Nepal
-Philippines;34;Filippinerne
-Eswatini;34;Eswatini
-Zambia;34;Zambia
-Sierra Leone;33;Sierra Leone
-Moldova;32;Moldova
-Niger;32;Niger
-Pakistan;32;Pakistan
-Bolivia;31;Bolivia
-Gabon;31;Gabon
-Malawi;31;Malawi
-Azerbaijan;30;Aserbajdsjan
-Djibouti;30;Djibouti
-Kyrgyzstan;30;Kirgisistan
-Ukraine;30;Ukraine
-Guinea;29;Guinea
-Laos;29;Laos
-Maldives;29;Maldiverne
-Mali;29;Mali
-Mexico;29;Mexico
-Myanmar;29;Myanmar
-Togo;29;Togo
-Dominican Republic;28;Dominikanske republik
-Kenya;28;Kenya
-Lebanon;28;Libanon
-Liberia;28;Liberia
-Mauritania;28;Mauretanien
-Papua New Guinea;28;Papua Ny Guinea
-Paraguay;28;Paraguay
-Russia;28;Rusland
-Uganda;28;Uganda
-Angola;26;Angola
-Bangladesh;26;Bangladesh
-Guatemala;26;Guatemala
-Honduras;26;Honduras
-Iran;26;Iran
-Mozambique;26;Mozambique
-Nigeria;26;Nigeria
-Cameroon;25;Cameroun
-Central African Republic;25;Den Centralafrikanske Republik
-Comoros;25;Comorerne
-Tajikistan;25;Tadsjikistan
-Uzbekistan;25;Usbekistan
-Madagascar;24;Madagaskar
-Zimbabwe;24;Zimbabwe
-Eritrea;23;Eritrea
-Nicaragua;22;Nicaragua
-Cambodia;20;Cambodja
-Chad;20;Tchad
-Iraq;20;Irak
-Burundi;19;Burundi
-Congo;19;Congo
-Turkmenistan;19;Turkmenistan
-Democratic Republic of the Congo;18;Den Demokratiske Republik Congo
-Guinea Bissau;18;Guinea-Bissau
-Haiti;18;Haiti
-Libya;18;Libyen
-Korea, North;17;Korea, Nord
-Afghanistan;16;Afghanistan
-Equatorial Guinea;16;Ækvatorial Guinea
-Sudan;16;Sudan
-Venezuela;16;Venezuela
-Yemen;15;Yemen
-Syria;13;Syrien
-South Sudan;12;Sydsudan
-Somalia;9;Somalia
+CurrentCountry;CPI_2019
+Danmark;87
+New Zealand;87
+Finland;86
+Singapore;85
+Sverige;85
+Schweiz;85
+Norge;84
+Holland;82
+Tyskland;80
+Luxembourg;80
+Island;78
+Australien;77
+Østrig;77
+Canada;77
+Storbritannien;77
+Hong Kong;76
+Belgien;75
+Estland;74
+Irland;74
+Japan;73
+Forenede Arabiske Emirater;71
+Uruguay;71
+Frankrig;69
+Amerikas Forenede Stater;69
+Bhutan;68
+Chile;67
+Seychellerne;66
+Taiwan;65
+Bahamas;64
+Barbados;62
+Portugal;62
+Qatar;62
+Spanien;62
+Botswana;61
+Brunei Darussalam;60
+Israel;60
+Litauen;60
+Slovenien;60
+Korea, Syd;59
+Saint Vincent og Grenadinerne;59
+Cabo Verde;58
+Cypern;58
+Polen;58
+Costa Rica;56
+Tjekkiet;56
+Georgien;56
+Letland;56
+Dominica;55
+Saint Lucia;55
+Malta;54
+Grenada;53
+Italien;53
+Malaysia;53
+Rwanda;53
+Saudi Arabien;53
+Mauritius;52
+Namibia;52
+Oman;52
+Slovakiet;50
+Cuba;48
+Grækenland;48
+Jordan;48
+Kroatien;47
+Sao Tomé og Principe;46
+Vanuatu;46
+Argentina;45
+Hviderusland;45
+Montenegro;45
+Senegal;45
+Ungarn;44
+Rumænien;44
+Sydafrika;44
+Surinam;44
+Bulgarien;43
+Jamaica;43
+Tunesien;43
+Armenien;42
+Bahrain;42
+Salomonøerne;42
+Benin;41
+Kina;41
+Ghana;41
+Indien;41
+Marokko;41
+Burkina Faso;40
+Guyana;40
+Indonesien;40
+Kuwait;40
+Lesotho;40
+Trinidad og Tobago;40
+Serbien;39
+Tyrkiet;39
+Ecuador;38
+Sri Lanka;38
+Østtimor;38
+Colombia;37
+Etiopien;37
+Gambia;37
+Tanzania;37
+Vietnam;37
+Bosnien-Hercegovina;36
+Kosovo;36
+Panama;36
+Peru;36
+Thailand;36
+Albanien;35
+Algeriet;35
+Brasilien;35
+Elfenbenskysten;35
+Egypten;35
+Nordlige Makedonien;35
+Mongoliet;35
+El Salvador;34
+Kasakhstan;34
+Nepal;34
+Filippinerne;34
+Eswatini;34
+Zambia;34
+Sierra Leone;33
+Moldova;32
+Niger;32
+Pakistan;32
+Bolivia;31
+Gabon;31
+Malawi;31
+Aserbajdsjan;30
+Djibouti;30
+Kirgisistan;30
+Ukraine;30
+Guinea;29
+Laos;29
+Maldiverne;29
+Mali;29
+Mexico;29
+Myanmar;29
+Togo;29
+Dominikanske republik;28
+Kenya;28
+Libanon;28
+Liberia;28
+Mauretanien;28
+Papua Ny Guinea;28
+Paraguay;28
+Rusland;28
+Uganda;28
+Angola;26
+Bangladesh;26
+Guatemala;26
+Honduras;26
+Iran;26
+Mozambique;26
+Nigeria;26
+Cameroun;25
+Den Centralafrikanske Republik;25
+Comorerne;25
+Tadsjikistan;25
+Usbekistan;25
+Madagaskar;24
+Zimbabwe;24
+Eritrea;23
+Nicaragua;22
+Cambodja;20
+Tchad;20
+Irak;20
+Burundi;19
+Congo;19
+Turkmenistan;19
+Den Demokratiske Republik Congo;18
+Guinea-Bissau;18
+Haiti;18
+Libyen;18
+Korea, Nord;17
+Afghanistan;16
+Ækvatorial Guinea;16
+Sudan;16
+Venezuela;16
+Yemen;15
+Syrien;13
+Sydsudan;12
+Somalia;9

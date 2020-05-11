@@ -1,0 +1,1093 @@
+"","ID","Age","Gender","Education","CogSci","CPI_native","CPI_current","NativeCountry","CurrentCountry","Years_Current","d_condition","d_data","q_condition","q_data","f_condition","f_data"
+"1:1","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1","Dilemma1","1",NA,NA,NA,NA
+"1:2","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:3","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:4","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2","Dilemma1","1",NA,NA,NA,NA
+"1:5","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19","Dilemma1","1",NA,NA,NA,NA
+"1:6","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22","Dilemma1","0",NA,NA,NA,NA
+"1:7","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25","Dilemma1","1",NA,NA,NA,NA
+"1:8","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25","Dilemma1","0",NA,NA,NA,NA
+"1:9","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1","Dilemma1","0",NA,NA,NA,NA
+"1:10","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22","Dilemma1","0",NA,NA,NA,NA
+"1:11","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25","Dilemma1","1",NA,NA,NA,NA
+"1:12","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23","Dilemma1","1",NA,NA,NA,NA
+"1:13","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21","Dilemma1","1",NA,NA,NA,NA
+"1:14","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19","Dilemma1","1",NA,NA,NA,NA
+"1:15","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23","Dilemma1","1",NA,NA,NA,NA
+"1:16","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24","Dilemma1","0",NA,NA,NA,NA
+"1:17","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22","Dilemma1","1",NA,NA,NA,NA
+"1:18","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25","Dilemma1","1",NA,NA,NA,NA
+"1:19","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23","Dilemma1","0",NA,NA,NA,NA
+"1:20","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25","Dilemma1","1",NA,NA,NA,NA
+"1:21","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22","Dilemma1","0",NA,NA,NA,NA
+"1:22","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1","Dilemma1","1",NA,NA,NA,NA
+"1:23","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3","Dilemma1","0",NA,NA,NA,NA
+"1:24","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2","Dilemma1","1",NA,NA,NA,NA
+"1:25","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3","Dilemma1","1",NA,NA,NA,NA
+"1:26","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24","Dilemma1","1",NA,NA,NA,NA
+"1:27","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67","Dilemma1","1",NA,NA,NA,NA
+"1:28","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17","Dilemma1","1",NA,NA,NA,NA
+"1:29","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30","Dilemma1","0",NA,NA,NA,NA
+"1:30","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48","Dilemma1","1",NA,NA,NA,NA
+"1:31","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41","Dilemma1","0",NA,NA,NA,NA
+"1:32","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2","Dilemma1","1",NA,NA,NA,NA
+"1:33","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15","Dilemma1","0",NA,NA,NA,NA
+"1:34","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10","Dilemma1","1",NA,NA,NA,NA
+"1:35","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3","Dilemma1","0",NA,NA,NA,NA
+"1:36","17","43","Male","PhD","No",58,44,"Poland","Denmark","11","Dilemma1","1",NA,NA,NA,NA
+"1:37","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1","Dilemma1","1",NA,NA,NA,NA
+"1:38","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8","Dilemma1","0",NA,NA,NA,NA
+"1:39","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9","Dilemma1","1",NA,NA,NA,NA
+"1:40","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3","Dilemma1","1",NA,NA,NA,NA
+"1:41","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2","Dilemma1","0",NA,NA,NA,NA
+"1:42","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4","Dilemma1","1",NA,NA,NA,NA
+"1:43","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1","Dilemma2","0",NA,NA,NA,NA
+"1:44","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11","Dilemma2","0",NA,NA,NA,NA
+"1:45","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11","Dilemma2","0",NA,NA,NA,NA
+"1:46","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2","Dilemma2","1",NA,NA,NA,NA
+"1:47","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19","Dilemma2","1",NA,NA,NA,NA
+"1:48","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22","Dilemma2","1",NA,NA,NA,NA
+"1:49","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25","Dilemma2","0",NA,NA,NA,NA
+"1:50","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:51","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1","Dilemma2","0",NA,NA,NA,NA
+"1:52","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22","Dilemma2","1",NA,NA,NA,NA
+"1:53","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:54","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23","Dilemma2","1",NA,NA,NA,NA
+"1:55","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21","Dilemma2","1",NA,NA,NA,NA
+"1:56","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19","Dilemma2","1",NA,NA,NA,NA
+"1:57","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23","Dilemma2","1",NA,NA,NA,NA
+"1:58","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24","Dilemma2","1",NA,NA,NA,NA
+"1:59","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22","Dilemma2","0",NA,NA,NA,NA
+"1:60","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:61","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23","Dilemma2","0",NA,NA,NA,NA
+"1:62","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25","Dilemma2","1",NA,NA,NA,NA
+"1:63","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22","Dilemma2","0",NA,NA,NA,NA
+"1:64","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1","Dilemma2","1",NA,NA,NA,NA
+"1:65","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3","Dilemma2","1",NA,NA,NA,NA
+"1:66","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2","Dilemma2","1",NA,NA,NA,NA
+"1:67","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3","Dilemma2","0",NA,NA,NA,NA
+"1:68","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24","Dilemma2","1",NA,NA,NA,NA
+"1:69","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67","Dilemma2","0",NA,NA,NA,NA
+"1:70","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17","Dilemma2","0",NA,NA,NA,NA
+"1:71","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30","Dilemma2","1",NA,NA,NA,NA
+"1:72","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48","Dilemma2","1",NA,NA,NA,NA
+"1:73","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41","Dilemma2","1",NA,NA,NA,NA
+"1:74","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2","Dilemma2","1",NA,NA,NA,NA
+"1:75","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15","Dilemma2","0",NA,NA,NA,NA
+"1:76","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10","Dilemma2","1",NA,NA,NA,NA
+"1:77","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3","Dilemma2","1",NA,NA,NA,NA
+"1:78","17","43","Male","PhD","No",58,44,"Poland","Denmark","11","Dilemma2","1",NA,NA,NA,NA
+"1:79","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1","Dilemma2","1",NA,NA,NA,NA
+"1:80","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8","Dilemma2","1",NA,NA,NA,NA
+"1:81","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9","Dilemma2","1",NA,NA,NA,NA
+"1:82","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3","Dilemma2","1",NA,NA,NA,NA
+"1:83","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2","Dilemma2","1",NA,NA,NA,NA
+"1:84","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4","Dilemma2","1",NA,NA,NA,NA
+"1:85","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,"Q1","4",NA,NA
+"1:86","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,"Q1","3",NA,NA
+"1:87","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,"Q1","3",NA,NA
+"1:88","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,"Q1","5",NA,NA
+"1:89","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,"Q1","4",NA,NA
+"1:90","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,"Q1","4",NA,NA
+"1:91","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q1","5",NA,NA
+"1:92","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q1","4",NA,NA
+"1:93","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,"Q1","6",NA,NA
+"1:94","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q1","5",NA,NA
+"1:95","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q1","4",NA,NA
+"1:96","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,"Q1","3",NA,NA
+"1:97","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,"Q1","4",NA,NA
+"1:98","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,"Q1","5",NA,NA
+"1:99","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,"Q1","5",NA,NA
+"1:100","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,"Q1","5",NA,NA
+"1:101","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q1","5",NA,NA
+"1:102","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q1","1",NA,NA
+"1:103","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,"Q1","4",NA,NA
+"1:104","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q1","1",NA,NA
+"1:105","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,"Q1","4",NA,NA
+"1:106","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,"Q1","5",NA,NA
+"1:107","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,"Q1","2",NA,NA
+"1:108","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,"Q1","4",NA,NA
+"1:109","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,"Q1","2",NA,NA
+"1:110","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,"Q1","4",NA,NA
+"1:111","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,"Q1","3",NA,NA
+"1:112","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,"Q1","4",NA,NA
+"1:113","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,"Q1","5",NA,NA
+"1:114","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,"Q1","4",NA,NA
+"1:115","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,"Q1","3",NA,NA
+"1:116","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,"Q1","2",NA,NA
+"1:117","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,"Q1","4",NA,NA
+"1:118","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,"Q1","5",NA,NA
+"1:119","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,"Q1","2",NA,NA
+"1:120","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,"Q1","4",NA,NA
+"1:121","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,"Q1","3",NA,NA
+"1:122","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,"Q1","3",NA,NA
+"1:123","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,"Q1","4",NA,NA
+"1:124","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,"Q1","2",NA,NA
+"1:125","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,"Q1","3",NA,NA
+"1:126","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,"Q1","4",NA,NA
+"1:127","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,"Q2","4",NA,NA
+"1:128","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,"Q2","5",NA,NA
+"1:129","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,"Q2","5",NA,NA
+"1:130","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,"Q2","5",NA,NA
+"1:131","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,"Q2","5",NA,NA
+"1:132","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,"Q2","2",NA,NA
+"1:133","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q2","6",NA,NA
+"1:134","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q2","5",NA,NA
+"1:135","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,"Q2","6",NA,NA
+"1:136","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q2","5",NA,NA
+"1:137","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q2","4",NA,NA
+"1:138","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,"Q2","3",NA,NA
+"1:139","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,"Q2","5",NA,NA
+"1:140","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,"Q2","5",NA,NA
+"1:141","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,"Q2","6",NA,NA
+"1:142","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,"Q2","6",NA,NA
+"1:143","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q2","6",NA,NA
+"1:144","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q2","1",NA,NA
+"1:145","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,"Q2","5",NA,NA
+"1:146","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q2","1",NA,NA
+"1:147","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,"Q2","4",NA,NA
+"1:148","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,"Q2","5",NA,NA
+"1:149","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,"Q2","3",NA,NA
+"1:150","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,"Q2","4",NA,NA
+"1:151","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,"Q2","3",NA,NA
+"1:152","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,"Q2","5",NA,NA
+"1:153","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,"Q2","4",NA,NA
+"1:154","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,"Q2","5",NA,NA
+"1:155","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,"Q2","4",NA,NA
+"1:156","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,"Q2","4",NA,NA
+"1:157","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,"Q2","2",NA,NA
+"1:158","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,"Q2","3",NA,NA
+"1:159","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,"Q2","3",NA,NA
+"1:160","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,"Q2","6",NA,NA
+"1:161","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,"Q2","2",NA,NA
+"1:162","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,"Q2","5",NA,NA
+"1:163","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,"Q2","2",NA,NA
+"1:164","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,"Q2","3",NA,NA
+"1:165","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,"Q2","5",NA,NA
+"1:166","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,"Q2","1",NA,NA
+"1:167","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,"Q2","4",NA,NA
+"1:168","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,"Q2","4",NA,NA
+"1:169","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,"Q3","5",NA,NA
+"1:170","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,"Q3","3",NA,NA
+"1:171","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,"Q3","3",NA,NA
+"1:172","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,"Q3","4",NA,NA
+"1:173","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,"Q3","5",NA,NA
+"1:174","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,"Q3","1",NA,NA
+"1:175","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q3","5",NA,NA
+"1:176","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q3","5",NA,NA
+"1:177","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,"Q3","2",NA,NA
+"1:178","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q3","5",NA,NA
+"1:179","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q3","6",NA,NA
+"1:180","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,"Q3","3",NA,NA
+"1:181","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,"Q3","5",NA,NA
+"1:182","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,"Q3","5",NA,NA
+"1:183","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,"Q3","5",NA,NA
+"1:184","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,"Q3","6",NA,NA
+"1:185","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q3","5",NA,NA
+"1:186","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q3","1",NA,NA
+"1:187","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,"Q3","6",NA,NA
+"1:188","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q3","2",NA,NA
+"1:189","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,"Q3","5",NA,NA
+"1:190","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,"Q3","6",NA,NA
+"1:191","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,"Q3","3",NA,NA
+"1:192","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,"Q3","2",NA,NA
+"1:193","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,"Q3","6",NA,NA
+"1:194","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,"Q3","5",NA,NA
+"1:195","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,"Q3","3",NA,NA
+"1:196","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,"Q3","6",NA,NA
+"1:197","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,"Q3","6",NA,NA
+"1:198","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,"Q3","4",NA,NA
+"1:199","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,"Q3","3",NA,NA
+"1:200","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,"Q3","3",NA,NA
+"1:201","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,"Q3","3",NA,NA
+"1:202","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,"Q3","6",NA,NA
+"1:203","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,"Q3","4",NA,NA
+"1:204","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,"Q3","5",NA,NA
+"1:205","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,"Q3","2",NA,NA
+"1:206","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,"Q3","3",NA,NA
+"1:207","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,"Q3","6",NA,NA
+"1:208","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,"Q3","2",NA,NA
+"1:209","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,"Q3","6",NA,NA
+"1:210","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,"Q3","5",NA,NA
+"1:211","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,"Q4","3",NA,NA
+"1:212","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,"Q4","1",NA,NA
+"1:213","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,"Q4","1",NA,NA
+"1:214","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,"Q4","2",NA,NA
+"1:215","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,"Q4","3",NA,NA
+"1:216","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,"Q4","5",NA,NA
+"1:217","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q4","4",NA,NA
+"1:218","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,"Q4","3",NA,NA
+"1:219","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,"Q4","4",NA,NA
+"1:220","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q4","4",NA,NA
+"1:221","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q4","2",NA,NA
+"1:222","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,"Q4","2",NA,NA
+"1:223","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,"Q4","3",NA,NA
+"1:224","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,"Q4","3",NA,NA
+"1:225","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,"Q4","5",NA,NA
+"1:226","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,"Q4","3",NA,NA
+"1:227","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,"Q4","3",NA,NA
+"1:228","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q4","1",NA,NA
+"1:229","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,"Q4","2",NA,NA
+"1:230","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,"Q4","1",NA,NA
+"1:231","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,"Q4","3",NA,NA
+"1:232","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,"Q4","2",NA,NA
+"1:233","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,"Q4","1",NA,NA
+"1:234","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,"Q4","2",NA,NA
+"1:235","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,"Q4","1",NA,NA
+"1:236","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,"Q4","2",NA,NA
+"1:237","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,"Q4","3",NA,NA
+"1:238","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,"Q4","3",NA,NA
+"1:239","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,"Q4","4",NA,NA
+"1:240","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,"Q4","3",NA,NA
+"1:241","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,"Q4","2",NA,NA
+"1:242","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,"Q4","2",NA,NA
+"1:243","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,"Q4","1",NA,NA
+"1:244","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,"Q4","3",NA,NA
+"1:245","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,"Q4","1",NA,NA
+"1:246","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,"Q4","3",NA,NA
+"1:247","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,"Q4","1",NA,NA
+"1:248","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,"Q4","3",NA,NA
+"1:249","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,"Q4","2",NA,NA
+"1:250","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,"Q4","1",NA,NA
+"1:251","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,"Q4","3",NA,NA
+"1:252","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,"Q4","4",NA,NA
+"2:1","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face1","3"
+"2:2","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face1","5"
+"2:3","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face1","5"
+"2:4","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face1","2"
+"2:5","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face1","4"
+"2:6","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face1","4"
+"2:7","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face1","2"
+"2:8","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face1","4"
+"2:9","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face1","5"
+"2:10","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face1","5"
+"2:11","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face1","5"
+"2:12","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face1","3"
+"2:13","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face1","5"
+"2:14","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face1","4"
+"2:15","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face1","4"
+"2:16","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face1","4"
+"2:17","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face1","4"
+"2:18","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face1","3"
+"2:19","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face1","4"
+"2:20","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face1","2"
+"2:21","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face1","4"
+"2:22","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face1","5"
+"2:23","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face1","4"
+"2:24","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face1","5"
+"2:25","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face1","5"
+"2:26","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face1","5"
+"2:27","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face1","4"
+"2:28","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face1","6"
+"2:29","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face1","5"
+"2:30","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face1","4"
+"2:31","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face1","2"
+"2:32","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face1","5"
+"2:33","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face1","5"
+"2:34","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face1","5"
+"2:35","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face1","3"
+"2:36","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face1","4"
+"2:37","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face1","5"
+"2:38","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face1","2"
+"2:39","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face1","4"
+"2:40","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face1","4"
+"2:41","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face1","5"
+"2:42","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face1","2"
+"2:43","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face2","3"
+"2:44","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face2","4"
+"2:45","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face2","4"
+"2:46","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face2","5"
+"2:47","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face2","5"
+"2:48","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face2","3"
+"2:49","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face2","3"
+"2:50","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face2","3"
+"2:51","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face2","5"
+"2:52","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face2","4"
+"2:53","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face2","6"
+"2:54","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face2","3"
+"2:55","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face2","5"
+"2:56","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face2","5"
+"2:57","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face2","4"
+"2:58","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face2","4"
+"2:59","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face2","4"
+"2:60","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face2","3"
+"2:61","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face2","2"
+"2:62","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face2","2"
+"2:63","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face2","3"
+"2:64","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face2","5"
+"2:65","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face2","3"
+"2:66","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face2","3"
+"2:67","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face2","3"
+"2:68","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face2","6"
+"2:69","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face2","2"
+"2:70","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face2","1"
+"2:71","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face2","6"
+"2:72","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face2","4"
+"2:73","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face2","3"
+"2:74","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face2","3"
+"2:75","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face2","4"
+"2:76","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face2","5"
+"2:77","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face2","3"
+"2:78","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face2","4"
+"2:79","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face2","5"
+"2:80","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face2","3"
+"2:81","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face2","4"
+"2:82","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face2","3"
+"2:83","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face2","6"
+"2:84","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face2","3"
+"2:85","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face3","2"
+"2:86","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face3","3"
+"2:87","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face3","3"
+"2:88","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face3","4"
+"2:89","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face3","3"
+"2:90","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face3","2"
+"2:91","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face3","4"
+"2:92","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face3","4"
+"2:93","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face3","5"
+"2:94","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face3","2"
+"2:95","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face3","4"
+"2:96","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face3","2"
+"2:97","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face3","5"
+"2:98","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face3","2"
+"2:99","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face3","3"
+"2:100","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face3","2"
+"2:101","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face3","5"
+"2:102","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face3","2"
+"2:103","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face3","3"
+"2:104","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face3","3"
+"2:105","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face3","4"
+"2:106","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face3","4"
+"2:107","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face3","3"
+"2:108","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face3","3"
+"2:109","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face3","4"
+"2:110","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face3","3"
+"2:111","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face3","2"
+"2:112","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face3","4"
+"2:113","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face3","5"
+"2:114","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face3","3"
+"2:115","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face3","2"
+"2:116","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face3","3"
+"2:117","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face3","6"
+"2:118","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face3","2"
+"2:119","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face3","3"
+"2:120","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face3","4"
+"2:121","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face3","5"
+"2:122","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face3","3"
+"2:123","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face3","3"
+"2:124","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face3","2"
+"2:125","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face3","2"
+"2:126","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face3","3"
+"2:127","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face4","4"
+"2:128","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face4","3"
+"2:129","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face4","3"
+"2:130","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face4","2"
+"2:131","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face4","4"
+"2:132","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face4","2"
+"2:133","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face4","2"
+"2:134","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face4","4"
+"2:135","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face4","5"
+"2:136","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face4","4"
+"2:137","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face4","5"
+"2:138","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face4","2"
+"2:139","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face4","5"
+"2:140","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face4","3"
+"2:141","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face4","3"
+"2:142","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face4","4"
+"2:143","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face4","5"
+"2:144","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face4","3"
+"2:145","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face4","2"
+"2:146","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face4","2"
+"2:147","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face4","4"
+"2:148","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face4","4"
+"2:149","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face4","3"
+"2:150","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face4","2"
+"2:151","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face4","4"
+"2:152","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face4","2"
+"2:153","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face4","4"
+"2:154","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face4","5"
+"2:155","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face4","3"
+"2:156","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face4","3"
+"2:157","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face4","2"
+"2:158","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face4","4"
+"2:159","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face4","4"
+"2:160","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face4","2"
+"2:161","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face4","3"
+"2:162","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face4","4"
+"2:163","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face4","4"
+"2:164","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face4","3"
+"2:165","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face4","4"
+"2:166","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face4","2"
+"2:167","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face4","1"
+"2:168","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face4","3"
+"2:169","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face5","3"
+"2:170","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face5","5"
+"2:171","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face5","5"
+"2:172","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face5","6"
+"2:173","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face5","5"
+"2:174","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face5","4"
+"2:175","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face5","4"
+"2:176","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face5","3"
+"2:177","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face5","3"
+"2:178","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face5","3"
+"2:179","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face5","6"
+"2:180","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face5","4"
+"2:181","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face5","5"
+"2:182","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face5","5"
+"2:183","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face5","5"
+"2:184","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face5","2"
+"2:185","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face5","6"
+"2:186","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face5","2"
+"2:187","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face5","4"
+"2:188","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face5","2"
+"2:189","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face5","5"
+"2:190","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face5","5"
+"2:191","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face5","4"
+"2:192","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face5","4"
+"2:193","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face5","2"
+"2:194","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face5","5"
+"2:195","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face5","3"
+"2:196","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face5","6"
+"2:197","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face5","5"
+"2:198","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face5","4"
+"2:199","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face5","4"
+"2:200","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face5","3"
+"2:201","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face5","4"
+"2:202","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face5","6"
+"2:203","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face5","3"
+"2:204","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face5","4"
+"2:205","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face5","6"
+"2:206","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face5","4"
+"2:207","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face5","5"
+"2:208","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face5","2"
+"2:209","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face5","4"
+"2:210","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face5","4"
+"2:211","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face6","4"
+"2:212","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face6","2"
+"2:213","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face6","2"
+"2:214","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face6","6"
+"2:215","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face6","5"
+"2:216","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face6","4"
+"2:217","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face6","5"
+"2:218","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face6","5"
+"2:219","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face6","4"
+"2:220","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face6","4"
+"2:221","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face6","5"
+"2:222","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face6","3"
+"2:223","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face6","6"
+"2:224","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face6","6"
+"2:225","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face6","4"
+"2:226","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face6","5"
+"2:227","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face6","6"
+"2:228","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face6","1"
+"2:229","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face6","3"
+"2:230","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face6","1"
+"2:231","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face6","5"
+"2:232","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face6","3"
+"2:233","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face6","3"
+"2:234","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face6","3"
+"2:235","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face6","4"
+"2:236","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face6","3"
+"2:237","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face6","3"
+"2:238","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face6","4"
+"2:239","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face6","6"
+"2:240","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face6","4"
+"2:241","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face6","4"
+"2:242","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face6","4"
+"2:243","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face6","4"
+"2:244","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face6","4"
+"2:245","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face6","4"
+"2:246","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face6","4"
+"2:247","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face6","6"
+"2:248","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face6","4"
+"2:249","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face6","6"
+"2:250","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face6","3"
+"2:251","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face6","5"
+"2:252","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face6","3"
+"2:253","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face7","2"
+"2:254","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face7","3"
+"2:255","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face7","3"
+"2:256","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face7","2"
+"2:257","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face7","4"
+"2:258","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face7","2"
+"2:259","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face7","3"
+"2:260","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face7","2"
+"2:261","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face7","3"
+"2:262","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face7","5"
+"2:263","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face7","3"
+"2:264","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face7","4"
+"2:265","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face7","5"
+"2:266","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face7","3"
+"2:267","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face7","2"
+"2:268","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face7","2"
+"2:269","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face7","4"
+"2:270","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face7","3"
+"2:271","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face7","1"
+"2:272","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face7","1"
+"2:273","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face7","4"
+"2:274","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face7","3"
+"2:275","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face7","4"
+"2:276","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face7","3"
+"2:277","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face7","4"
+"2:278","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face7","2"
+"2:279","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face7","2"
+"2:280","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face7","3"
+"2:281","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face7","5"
+"2:282","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face7","3"
+"2:283","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face7","5"
+"2:284","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face7","2"
+"2:285","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face7","4"
+"2:286","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face7","4"
+"2:287","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face7","2"
+"2:288","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face7","4"
+"2:289","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face7","3"
+"2:290","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face7","4"
+"2:291","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face7","5"
+"2:292","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face7","3"
+"2:293","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face7","3"
+"2:294","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face7","2"
+"2:295","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face8","4"
+"2:296","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face8","5"
+"2:297","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face8","5"
+"2:298","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face8","1"
+"2:299","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face8","5"
+"2:300","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face8","4"
+"2:301","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face8","3"
+"2:302","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face8","4"
+"2:303","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face8","4"
+"2:304","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face8","2"
+"2:305","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face8","3"
+"2:306","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face8","3"
+"2:307","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face8","5"
+"2:308","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face8","4"
+"2:309","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face8","3"
+"2:310","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face8","3"
+"2:311","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face8","5"
+"2:312","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face8","4"
+"2:313","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face8","2"
+"2:314","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face8","3"
+"2:315","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face8","5"
+"2:316","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face8","3"
+"2:317","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face8","5"
+"2:318","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face8","4"
+"2:319","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face8","5"
+"2:320","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face8","4"
+"2:321","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face8","2"
+"2:322","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face8","2"
+"2:323","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face8","5"
+"2:324","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face8","3"
+"2:325","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face8","4"
+"2:326","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face8","4"
+"2:327","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face8","4"
+"2:328","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face8","3"
+"2:329","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face8","3"
+"2:330","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face8","4"
+"2:331","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face8","3"
+"2:332","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face8","5"
+"2:333","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face8","4"
+"2:334","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face8","3"
+"2:335","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face8","1"
+"2:336","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face8","3"
+"2:337","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face9","3"
+"2:338","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face9","3"
+"2:339","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face9","3"
+"2:340","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face9","1"
+"2:341","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face9","5"
+"2:342","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face9","3"
+"2:343","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face9","3"
+"2:344","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face9","3"
+"2:345","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face9","5"
+"2:346","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face9","2"
+"2:347","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face9","5"
+"2:348","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face9","1"
+"2:349","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face9","5"
+"2:350","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face9","5"
+"2:351","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face9","3"
+"2:352","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face9","1"
+"2:353","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face9","4"
+"2:354","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face9","1"
+"2:355","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face9","4"
+"2:356","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face9","1"
+"2:357","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face9","5"
+"2:358","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face9","3"
+"2:359","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face9","5"
+"2:360","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face9","5"
+"2:361","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face9","3"
+"2:362","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face9","5"
+"2:363","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face9","3"
+"2:364","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face9","3"
+"2:365","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face9","5"
+"2:366","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face9","4"
+"2:367","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face9","4"
+"2:368","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face9","3"
+"2:369","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face9","5"
+"2:370","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face9","3"
+"2:371","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face9","3"
+"2:372","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face9","4"
+"2:373","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face9","4"
+"2:374","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face9","4"
+"2:375","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face9","5"
+"2:376","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face9","2"
+"2:377","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face9","2"
+"2:378","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face9","3"
+"2:379","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face10","3"
+"2:380","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face10","4"
+"2:381","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face10","4"
+"2:382","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face10","3"
+"2:383","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face10","5"
+"2:384","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face10","3"
+"2:385","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face10","5"
+"2:386","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face10","4"
+"2:387","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face10","5"
+"2:388","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face10","4"
+"2:389","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face10","2"
+"2:390","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face10","2"
+"2:391","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face10","5"
+"2:392","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face10","3"
+"2:393","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face10","3"
+"2:394","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face10","3"
+"2:395","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face10","3"
+"2:396","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face10","4"
+"2:397","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face10","5"
+"2:398","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face10","3"
+"2:399","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face10","4"
+"2:400","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face10","3"
+"2:401","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face10","5"
+"2:402","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face10","4"
+"2:403","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face10","4"
+"2:404","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face10","4"
+"2:405","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face10","4"
+"2:406","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face10","4"
+"2:407","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face10","5"
+"2:408","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face10","4"
+"2:409","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face10","3"
+"2:410","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face10","3"
+"2:411","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face10","4"
+"2:412","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face10","4"
+"2:413","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face10","3"
+"2:414","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face10","4"
+"2:415","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face10","3"
+"2:416","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face10","4"
+"2:417","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face10","5"
+"2:418","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face10","2"
+"2:419","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face10","4"
+"2:420","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face10","2"
+"2:421","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face11","4"
+"2:422","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face11","5"
+"2:423","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face11","5"
+"2:424","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face11","6"
+"2:425","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face11","5"
+"2:426","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face11","2"
+"2:427","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face11","6"
+"2:428","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face11","5"
+"2:429","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face11","4"
+"2:430","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face11","4"
+"2:431","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face11","5"
+"2:432","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face11","3"
+"2:433","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face11","5"
+"2:434","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face11","5"
+"2:435","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face11","4"
+"2:436","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face11","5"
+"2:437","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face11","3"
+"2:438","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face11","1"
+"2:439","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face11","5"
+"2:440","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face11","1"
+"2:441","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face11","5"
+"2:442","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face11","4"
+"2:443","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face11","5"
+"2:444","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face11","5"
+"2:445","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face11","5"
+"2:446","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face11","5"
+"2:447","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face11","3"
+"2:448","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face11","6"
+"2:449","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face11","6"
+"2:450","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face11","4"
+"2:451","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face11","4"
+"2:452","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face11","4"
+"2:453","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face11","4"
+"2:454","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face11","5"
+"2:455","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face11","3"
+"2:456","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face11","4"
+"2:457","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face11","4"
+"2:458","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face11","5"
+"2:459","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face11","5"
+"2:460","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face11","4"
+"2:461","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face11","4"
+"2:462","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face11","5"
+"2:463","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face12","2"
+"2:464","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face12","5"
+"2:465","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face12","5"
+"2:466","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face12","5"
+"2:467","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face12","6"
+"2:468","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face12","4"
+"2:469","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face12","6"
+"2:470","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face12","4"
+"2:471","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face12","6"
+"2:472","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face12","5"
+"2:473","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face12","6"
+"2:474","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face12","4"
+"2:475","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face12","5"
+"2:476","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face12","6"
+"2:477","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face12","3"
+"2:478","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face12","5"
+"2:479","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face12","6"
+"2:480","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face12","1"
+"2:481","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face12","5"
+"2:482","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face12","1"
+"2:483","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face12","5"
+"2:484","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face12","5"
+"2:485","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face12","4"
+"2:486","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face12","4"
+"2:487","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face12","5"
+"2:488","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face12","3"
+"2:489","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face12","4"
+"2:490","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face12","5"
+"2:491","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face12","5"
+"2:492","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face12","4"
+"2:493","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face12","3"
+"2:494","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face12","3"
+"2:495","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face12","4"
+"2:496","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face12","4"
+"2:497","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face12","3"
+"2:498","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face12","4"
+"2:499","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face12","4"
+"2:500","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face12","5"
+"2:501","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face12","5"
+"2:502","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face12","3"
+"2:503","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face12","5"
+"2:504","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face12","4"
+"2:505","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face13","4"
+"2:506","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face13","4"
+"2:507","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face13","4"
+"2:508","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face13","2"
+"2:509","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face13","4"
+"2:510","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face13","2"
+"2:511","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face13","2"
+"2:512","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face13","3"
+"2:513","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face13","5"
+"2:514","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face13","1"
+"2:515","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face13","3"
+"2:516","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face13","4"
+"2:517","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face13","4"
+"2:518","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face13","4"
+"2:519","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face13","4"
+"2:520","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face13","4"
+"2:521","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face13","4"
+"2:522","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face13","2"
+"2:523","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face13","3"
+"2:524","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face13","2"
+"2:525","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face13","3"
+"2:526","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face13","4"
+"2:527","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face13","5"
+"2:528","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face13","2"
+"2:529","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face13","4"
+"2:530","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face13","2"
+"2:531","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face13","3"
+"2:532","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face13","5"
+"2:533","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face13","5"
+"2:534","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face13","3"
+"2:535","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face13","3"
+"2:536","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face13","3"
+"2:537","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face13","3"
+"2:538","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face13","4"
+"2:539","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face13","2"
+"2:540","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face13","4"
+"2:541","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face13","4"
+"2:542","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face13","5"
+"2:543","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face13","5"
+"2:544","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face13","2"
+"2:545","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face13","2"
+"2:546","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face13","2"
+"2:547","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face14","3"
+"2:548","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face14","3"
+"2:549","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face14","3"
+"2:550","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face14","1"
+"2:551","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face14","3"
+"2:552","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face14","2"
+"2:553","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face14","3"
+"2:554","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face14","3"
+"2:555","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face14","3"
+"2:556","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face14","2"
+"2:557","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face14","3"
+"2:558","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face14","3"
+"2:559","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face14","4"
+"2:560","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face14","1"
+"2:561","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face14","2"
+"2:562","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face14","4"
+"2:563","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face14","3"
+"2:564","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face14","1"
+"2:565","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face14","1"
+"2:566","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face14","1"
+"2:567","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face14","3"
+"2:568","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face14","5"
+"2:569","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face14","3"
+"2:570","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face14","5"
+"2:571","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face14","1"
+"2:572","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face14","3"
+"2:573","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face14","2"
+"2:574","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face14","3"
+"2:575","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face14","5"
+"2:576","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face14","3"
+"2:577","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face14","3"
+"2:578","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face14","4"
+"2:579","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face14","4"
+"2:580","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face14","4"
+"2:581","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face14","3"
+"2:582","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face14","4"
+"2:583","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face14","2"
+"2:584","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face14","4"
+"2:585","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face14","4"
+"2:586","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face14","3"
+"2:587","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face14","2"
+"2:588","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face14","3"
+"2:589","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face15","3"
+"2:590","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face15","3"
+"2:591","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face15","3"
+"2:592","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face15","3"
+"2:593","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face15","5"
+"2:594","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face15","4"
+"2:595","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face15","4"
+"2:596","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face15","4"
+"2:597","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face15","4"
+"2:598","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face15","3"
+"2:599","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face15","3"
+"2:600","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face15","2"
+"2:601","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face15","4"
+"2:602","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face15","3"
+"2:603","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face15","3"
+"2:604","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face15","3"
+"2:605","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face15","3"
+"2:606","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face15","2"
+"2:607","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face15","2"
+"2:608","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face15","2"
+"2:609","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face15","5"
+"2:610","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face15","4"
+"2:611","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face15","5"
+"2:612","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face15","4"
+"2:613","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face15","2"
+"2:614","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face15","5"
+"2:615","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face15","3"
+"2:616","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face15","4"
+"2:617","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face15","5"
+"2:618","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face15","3"
+"2:619","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face15","2"
+"2:620","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face15","4"
+"2:621","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face15","4"
+"2:622","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face15","4"
+"2:623","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face15","3"
+"2:624","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face15","4"
+"2:625","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face15","3"
+"2:626","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face15","4"
+"2:627","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face15","4"
+"2:628","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face15","2"
+"2:629","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face15","3"
+"2:630","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face15","2"
+"2:631","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face16","2"
+"2:632","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face16","5"
+"2:633","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face16","5"
+"2:634","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face16","1"
+"2:635","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face16","4"
+"2:636","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face16","4"
+"2:637","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face16","3"
+"2:638","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face16","4"
+"2:639","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face16","4"
+"2:640","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face16","5"
+"2:641","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face16","4"
+"2:642","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face16","3"
+"2:643","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face16","5"
+"2:644","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face16","5"
+"2:645","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face16","3"
+"2:646","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face16","4"
+"2:647","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face16","4"
+"2:648","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face16","3"
+"2:649","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face16","3"
+"2:650","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face16","3"
+"2:651","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face16","3"
+"2:652","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face16","3"
+"2:653","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face16","5"
+"2:654","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face16","4"
+"2:655","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face16","5"
+"2:656","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face16","4"
+"2:657","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face16","2"
+"2:658","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face16","4"
+"2:659","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face16","5"
+"2:660","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face16","3"
+"2:661","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face16","5"
+"2:662","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face16","2"
+"2:663","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face16","4"
+"2:664","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face16","5"
+"2:665","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face16","3"
+"2:666","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face16","4"
+"2:667","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face16","2"
+"2:668","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face16","4"
+"2:669","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face16","4"
+"2:670","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face16","2"
+"2:671","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face16","2"
+"2:672","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face16","2"
+"2:673","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face17","2"
+"2:674","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face17","3"
+"2:675","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face17","3"
+"2:676","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face17","6"
+"2:677","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face17","4"
+"2:678","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face17","2"
+"2:679","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face17","3"
+"2:680","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face17","3"
+"2:681","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face17","4"
+"2:682","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face17","3"
+"2:683","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face17","4"
+"2:684","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face17","3"
+"2:685","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face17","5"
+"2:686","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face17","3"
+"2:687","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face17","3"
+"2:688","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face17","5"
+"2:689","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face17","4"
+"2:690","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face17","2"
+"2:691","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face17","4"
+"2:692","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face17","1"
+"2:693","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face17","4"
+"2:694","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face17","4"
+"2:695","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face17","4"
+"2:696","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face17","5"
+"2:697","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face17","5"
+"2:698","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face17","4"
+"2:699","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face17","4"
+"2:700","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face17","3"
+"2:701","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face17","5"
+"2:702","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face17","4"
+"2:703","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face17","3"
+"2:704","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face17","2"
+"2:705","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face17","4"
+"2:706","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face17","4"
+"2:707","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face17","3"
+"2:708","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face17","4"
+"2:709","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face17","2"
+"2:710","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face17","4"
+"2:711","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face17","4"
+"2:712","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face17","4"
+"2:713","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face17","4"
+"2:714","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face17","3"
+"2:715","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face18","3"
+"2:716","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face18","4"
+"2:717","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face18","4"
+"2:718","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face18","5"
+"2:719","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face18","6"
+"2:720","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face18","4"
+"2:721","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face18","5"
+"2:722","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face18","4"
+"2:723","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face18","6"
+"2:724","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face18","3"
+"2:725","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face18","6"
+"2:726","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face18","4"
+"2:727","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face18","5"
+"2:728","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face18","5"
+"2:729","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face18","4"
+"2:730","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face18","5"
+"2:731","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face18","4"
+"2:732","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face18","1"
+"2:733","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face18","5"
+"2:734","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face18","1"
+"2:735","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face18","4"
+"2:736","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face18","4"
+"2:737","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face18","4"
+"2:738","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face18","5"
+"2:739","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face18","5"
+"2:740","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face18","5"
+"2:741","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face18","3"
+"2:742","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face18","5"
+"2:743","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face18","5"
+"2:744","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face18","4"
+"2:745","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face18","3"
+"2:746","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face18","4"
+"2:747","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face18","4"
+"2:748","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face18","5"
+"2:749","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face18","3"
+"2:750","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face18","4"
+"2:751","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face18","4"
+"2:752","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face18","4"
+"2:753","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face18","5"
+"2:754","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face18","3"
+"2:755","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face18","5"
+"2:756","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face18","3"
+"2:757","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face19","3"
+"2:758","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face19","2"
+"2:759","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face19","2"
+"2:760","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face19","6"
+"2:761","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face19","6"
+"2:762","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face19","5"
+"2:763","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face19","6"
+"2:764","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face19","4"
+"2:765","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face19","6"
+"2:766","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face19","5"
+"2:767","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face19","6"
+"2:768","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face19","3"
+"2:769","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face19","6"
+"2:770","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face19","4"
+"2:771","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face19","5"
+"2:772","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face19","3"
+"2:773","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face19","5"
+"2:774","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face19","4"
+"2:775","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face19","3"
+"2:776","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face19","3"
+"2:777","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face19","5"
+"2:778","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face19","5"
+"2:779","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face19","5"
+"2:780","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face19","3"
+"2:781","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face19","5"
+"2:782","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face19","6"
+"2:783","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face19","3"
+"2:784","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face19","5"
+"2:785","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face19","5"
+"2:786","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face19","4"
+"2:787","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face19","5"
+"2:788","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face19","3"
+"2:789","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face19","4"
+"2:790","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face19","4"
+"2:791","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face19","3"
+"2:792","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face19","4"
+"2:793","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face19","5"
+"2:794","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face19","5"
+"2:795","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face19","5"
+"2:796","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face19","2"
+"2:797","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face19","1"
+"2:798","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face19","3"
+"2:799","39","33","Female","PhD","Yes",35,77,"Brazil","Denmark","1",NA,NA,NA,NA,"Face20","4"
+"2:800","26","30","Female","Bachelor's degree","No",43,56,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face20","5"
+"2:801","27","30","Female","Bachelor's degree","No",43,87,"Bulgaria","Denmark","11",NA,NA,NA,NA,"Face20","5"
+"2:802","16","21","Female","High school degree or equivalent","No",47,87,"Croatia","Denmark","2",NA,NA,NA,NA,"Face20","6"
+"2:803","6","23","Male","High school degree or equivalent","Yes",56,87,"Czech Republic","Czech Republic","19",NA,NA,NA,NA,"Face20","5"
+"2:804","1","22","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face20","5"
+"2:805","41","25","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face20","6"
+"2:806","3","25","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face20","4"
+"2:807","4","24","Female","Bachelor's degree","Yes",87,87,"Denmark","United Kingdom","1",NA,NA,NA,NA,"Face20","5"
+"2:808","5","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face20","4"
+"2:809","19","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face20","4"
+"2:810","20","23","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face20","2"
+"2:811","8","21","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","21",NA,NA,NA,NA,"Face20","6"
+"2:812","9","19","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","19",NA,NA,NA,NA,"Face20","5"
+"2:813","10","24","Female","Bachelor's degree","Yes",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face20","5"
+"2:814","37","24","Male","High school degree or equivalent","No",87,87,"Denmark","Denmark","24",NA,NA,NA,NA,"Face20","6"
+"2:815","13","22","Female","High school degree or equivalent","Yes",87,87,"Denmark","Denmark","22",NA,NA,NA,NA,"Face20","4"
+"2:816","22","25","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face20","1"
+"2:817","30","23","Female","Bachelor's degree","No",87,87,"Denmark","Denmark","23",NA,NA,NA,NA,"Face20","4"
+"2:818","34","25","Male","Bachelor's degree","No",87,87,"Denmark","Denmark","25",NA,NA,NA,NA,"Face20","1"
+"2:819","29","23","Female","Bachelor's degree","Yes",86,87,"Finland","Finland","22",NA,NA,NA,NA,"Face20","4"
+"2:820","7","20","Female","High school degree or equivalent","Yes",86,87,"Finland","Denmark","1",NA,NA,NA,NA,"Face20","3"
+"2:821","24","27","Female","Master´s degree","Yes",69,87,"France","Denmark","3",NA,NA,NA,NA,"Face20","5"
+"2:822","12","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face20","5"
+"2:823","2","20","Female","High school degree or equivalent","Yes",44,87,"Hungary","Denmark","3",NA,NA,NA,NA,"Face20","5"
+"2:824","42","27","Female","Master´s degree","No",44,87,"Hungary","Hungary","24",NA,NA,NA,NA,"Face20","5"
+"2:825","40","67","Male","PhD","No",44,87,"Hungary","Hungary","67",NA,NA,NA,NA,"Face20","2"
+"2:826","36","17","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","17",NA,NA,NA,NA,"Face20","4"
+"2:827","33","63","Female","Bachelor's degree","No",44,87,"Hungary","Canada","30",NA,NA,NA,NA,"Face20","5"
+"2:828","31","48","Female","Master´s degree","Yes",44,87,"Hungary","Hungary","48",NA,NA,NA,NA,"Face20","4"
+"2:829","35","41","Male","Master´s degree","No",44,87,"Hungary","Hungary","41",NA,NA,NA,NA,"Face20","4"
+"2:830","11","21","Male","High school degree or equivalent","No",44,87,"Hungary","Denmark","2",NA,NA,NA,NA,"Face20","4"
+"2:831","21","15","Female","Less then a high school diploma","No",44,87,"Hungary","Hungary","15",NA,NA,NA,NA,"Face20","4"
+"2:832","28","65","Male","Master´s degree","No",44,86,"Hungary","Denmark","10",NA,NA,NA,NA,"Face20","5"
+"2:833","23","21","Male","High school degree or equivalent","No",58,44,"Poland","Denmark","3",NA,NA,NA,NA,"Face20","3"
+"2:834","17","43","Male","PhD","No",58,44,"Poland","Denmark","11",NA,NA,NA,NA,"Face20","4"
+"2:835","25","22","Female","Bachelor's degree","No",58,44,"Poland","Denmark","1",NA,NA,NA,NA,"Face20","5"
+"2:836","14","27","Female","Master´s degree","No",44,44,"Romania","Denmark","8",NA,NA,NA,NA,"Face20","5"
+"2:837","38","48","Male","PhD","No",39,44,"Serbia","United Kingdom","9",NA,NA,NA,NA,"Face20","5"
+"2:838","15","22","Female","High school degree or equivalent","No",50,44,"Slovakia","Denmark","3",NA,NA,NA,NA,"Face20","2"
+"2:839","18","28","Male","Master´s degree","No",62,77,"Spain","Denmark","2",NA,NA,NA,NA,"Face20","4"
+"2:840","32","29","Female","Bachelor's degree","No",62,77,"Spain","Denmark","4",NA,NA,NA,NA,"Face20","5"
