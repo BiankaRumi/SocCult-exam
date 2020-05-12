@@ -20,7 +20,7 @@ pacman::p_load(tidyverse,brms)
 
 
 
-```{r echo=TRUE}
+```{r echo=TRUE, include=FALSE}
 #read the two datasets
 combined_eng <- read_csv("combined_eng.csv")
 
@@ -54,6 +54,36 @@ combined$CPI_change<-combined$CPI_current-combined$CPI_native
 set.seed(1999)
 ```
 
+```{r Demographics}
+
+participants<-unique(combined$ID) # 87 participants
+
+
+#gender
+
+combined %>% group_by(Gender)%>%
+  summarize(n_unique = n_distinct(ID))
+
+62/87 # 71% females
+
+
+#
+combined %>% group_by(CogSci)%>%
+  summarize(n_unique = n_distinct(ID))
+
+20/87
+
+combined %>% summarize(mean(Age)) # mean age 35.28
+combined %>% summarize(sd(Age)) # sd  age 15.02
+
+
+combined %>% group_by(NativeCountry)%>%
+  summarize(n_unique = n_distinct(ID)) #brazil, bulgaria, croatia, czeh republic, danmark (40), finland, france, holland,  irak, japan, litauen, poland, romania, serbia, slovakia, spain, sri lanka, tyskland, ungarn (10 + 11)
+
+40/87
+21/87
+
+```
 
 ## Template
 
@@ -70,11 +100,9 @@ Outcome: 3 different scores of interpersonal trust
 
 - trust_prisoners_dilemma (d_data), 2 rounds times scores 0-1, binomial
 
-- trust_faces (face_data), 20 observation times scores from 1-6
-discrete variable, only positive, normally distributed
+- trust_faces (face_data), 20 observation times scores from 1-6, ordinal, 
 
-- trust_questionnaire (q_data), 4 questions scores from 1-6
-discrete variable, only positive, normally distributed
+- trust_questionnaire (q_data), 4 questions scores from 1-6, ordinal
 
 
 Predictors: 
@@ -84,7 +112,7 @@ CPI_native: Corruption Perception Index, a scale from 1-100, where 100 indicates
 
 Condition: dilemma 1 or 2 ; faces 1 - 20; q 1- q4
 
-ID
+ID: unique ID for each participant
 
 H2: 
 CPI_native
@@ -105,21 +133,20 @@ I will make the following models:
 
 H1: 
 
-m0: Interpersonal trust ~ condition + (1 + condition | ID)
+m0: Interpersonal trust ~ 1 + (1 | condition)+ (1 | ID)
 
-m1: Interpersonal trust ~ CPI_native + condition,
 
-m2: Interpersonal trust ~ CPI_native + condition  ,
+m2: Interpersonal trust ~ CPI_native + (1 | condition)+ (1 | ID),
 
 Each of these for the 3 different outcome variables, so 9 models.
 
 
 H2: 
 
-m3: Interpersonal trust  ~ 1 + CPI_native + CPI_change + condition CPI_change:Years ,
-m4: Interpersonal trust  ~ 1 + CPI_native + CPI_change + condition CPI_change:Years + (1 + condition | ID)
 
-Each of these fir the 3 different outcome variables, so 6 models.
+m3: Interpersonal trust  ~ 1 + CPI_native + CPI_change +  CPI_change:Years + (1 | condition)+ (1 | ID)
+
+Each of these fit the 3 different outcome variables, so 6 models.
 
 
 
@@ -130,16 +157,16 @@ Each of these fir the 3 different outcome variables, so 6 models.
 #First, I will define my models:
 
 
-f0_d<-bf(d_data ~ 1 + d_condition + (1 + d_condition | ID)) #bernoulli
-f0_q<-bf(q_data ~ 1 + q_condition + (1 + q_condition | ID))#cumulative?
-f0_f<-bf(f_data ~ 1 + f_condition + (1 + f_condition | ID)) #cumulative
+f0_d<-bf(d_data ~ 1 + (1 | d_condition) + (1 | ID)) #bernoulli
+f0_q<-bf(q_data ~ 1 + (1 | ID) + (1 | q_condition))#cumulative?
+f0_f<-bf(f_data ~ 1 + (1 | ID) + (1 | f_condition )) #cumulative
 
 
 
 
-f2_d<-bf(d_data ~ CPI_native + d_condition + (1 + d_condition | ID))
-f2_q<-bf(q_data ~ CPI_native + q_condition + (1 + q_condition | ID))
-f2_f<-bf(f_data ~ CPI_native + f_condition + (1 + f_condition | ID))
+f2_d<-bf(d_data ~ CPI_native + (1 | d_condition) + (1 | ID))
+f2_q<-bf(q_data ~ CPI_native + (1 | ID) + (1 | q_condition))
+f2_f<-bf(f_data ~ CPI_native + (1 | ID) + (1 | f_condition ))
 
 
  
@@ -158,7 +185,6 @@ get_prior(f0_d, combined, bernoulli())
 
 f0_d_prior<-c(
   prior(normal(0.5, 0.2), class = Intercept),
-  prior(normal(0.2, .1), class = b),
   prior(normal(0, .1), class = sd)
 )
 
@@ -184,7 +210,6 @@ get_prior(f0_q, combined, family=cumulative)
 
 f0_q_prior<-c(
   prior(normal(3.5, 1), class = Intercept),
-  prior(normal(0.5, .2), class = b),
   prior(normal(0, .1), class = sd)
   )
 
@@ -214,7 +239,6 @@ get_prior(f0_f, combined, family=cumulative)
 
 f0_f_prior<-c(
   prior(normal(3.5, 1), class = Intercept),
-  prior(normal(1, .3), class = b),
   prior(normal(0, .1), class = sd)
   )
 
@@ -314,13 +338,7 @@ names(d)[names(d)=="Estimate.Intercept"]<-"D_var_ef"
 q<-ranef(q_m0)
 q<-q$ID
 q<-as.data.frame(q)
-
-colnames(q)
-#I average the variation for the different conditions within a condition
-q<-q%>%
-  select(Estimate.Intercept,Estimate.q_conditionQ2, Estimate.q_conditionQ3, Estimate.q_conditionQ4)
-q$Q_var_ef<-apply(q, 1, mean)
-
+names(q)[names(q)=="Estimate.Intercept"]<-"Q_var_ef"
 
 
 
@@ -329,19 +347,12 @@ q$Q_var_ef<-apply(q, 1, mean)
 f<-ranef(f_m0)
 f<-f$ID
 f<-as.data.frame(f)
-
-#I average the variation for the different conditions within a condition
-colnames(f)
-
-
-f<-f[ , grepl( "Estimate" , names( f ) ) ]
-
-f$F_var_ef<-apply(f, 1, mean)
-
+names(f)[names(f)=="Estimate.Intercept"]<-"F_var_ef"
 
 
 #make them one df
 var_ef<-cbind(f$F_var_ef,q$Q_var_ef,d$D_var_ef) # V1 = faces, V2 = questionnaire, V3 = dilemma
+
 
 
 #we make a model to see the rescore value which indicates the correlation.
@@ -350,7 +361,7 @@ f_cor <-
       family = gaussian,
       mvbind(V1,V2,V3) ~ 1,
       iter = 2000, warmup = 500, chains = 4, cores = 4, 
-      seed = 210191) #rhat of 3 + , model has not converged - why ? 
+      seed = 210191) 
 
 summary(f_cor) #Faces and questionnaire are somehow correlated (0.53) but not the others
 ```
@@ -367,7 +378,6 @@ get_prior(f2_d, combined, family = bernoulli())
 f2_d_prior<-c(
   prior(normal(0.5, 0.2), class = Intercept),
   prior(normal(0.2, .1), class = b, coef=CPI_native),
-  prior(normal(0.2, .1), class = b, coef=d_conditionDilemma2),
   prior(normal(0, .1), class = sd)
 )
 
@@ -438,9 +448,6 @@ f2_q_prior<-c(
   prior(normal(3.5, 1), class = Intercept),
   prior(normal(0.3, .1), class = b),
   prior(normal(0.3, .1), class = b,coef=CPI_native),
-  prior(normal(0.3, .1), class = b,coef=q_conditionQ2),
-  prior(normal(0.3, .1), class = b,coef=q_conditionQ3),
-  prior(normal(0.3, .1), class = b,coef=q_conditionQ4),
   prior(normal(0, .1), class = sd)
   )
 
@@ -583,14 +590,12 @@ plot(hypothesis(f_m2,"CPI_native > 0"))
 hypothesis(f_m2,"CPI_native > 0") # no effect
 
 
+#make a plot for q_m2
+
 
 ```
 
 
-Model comparisons:
-```{r}
-
-```
 
 
 
@@ -602,11 +607,11 @@ Model comparisons:
 
 
 
-f3_d<- bf(d_data ~ 1 + CPI_native + CPI_change + d_condition + CPI_change * Years_Current + (1 + d_condition | ID))
+f3_d<- bf(d_data ~ 1 + CPI_native + CPI_change  + CPI_change * Years_Current + (1 + d_condition) +  (1 | ID))
 
-f3_q<- bf(q_data ~ 1 + CPI_native + CPI_change + q_condition + CPI_change * Years_Current + (1 + q_condition | ID))
+f3_q<- bf(q_data ~ 1 + CPI_native + CPI_change  + CPI_change * Years_Current + (1 + q_condition) +  (1 | ID))
 
-f3_f<- bf(f_data ~ 1 + CPI_native + CPI_change + f_condition + CPI_change * Years_Current + (1 + f_condition | ID))
+f3_f<- bf(f_data ~ 1 + CPI_native + CPI_change  + CPI_change * Years_Current + (1 + f_condition)+(1 | ID))
 
 ```
 
@@ -835,6 +840,14 @@ hypothesis(f_m3,"CPI_change:Years_Current > 0")
 
 
 
+```
+
+```{r}
+RStudio.Version()
+
+citation()
+
+citation("brms")
 ```
 
 
