@@ -13,6 +13,8 @@ knitr::opts_chunk$set(echo = TRUE)
 .libPaths()
 
 library(pacman)
+install.packages("ggthemes")
+library(ggthemes)
 pacman::p_load(tidyverse,brms)
 
 
@@ -590,7 +592,9 @@ hypothesis(f_m2,"CPI_native > 0") # no effect
 
 
 #make a plot for q_m2
-ggplot(combined, aes(CPI_native, q_data, fill=CPI_native))+geom_bar(stat="summary", fun.y="mean")
+ggplot(combined, aes(CPI_native, q_data, fill=CPI_native))+geom_bar(stat="summary", fun.y="mean")+ggtitle("Effect of CPI on Interpersonal Trust (questionnaire)")+labs(x="Corruption Perception Index for native country", y="Mean score on Trust Questionnaire")
+
+ggplot(combined, aes(CPI_native, q_data))+geom_point()+geom_smooth()+ggtitle("Effect of CPI on Interpersonal Trust (questionnaire)")+labs(x="Corruption Perception Index for native country", y="Score on Trust Questionnaire")
 
 #plot for easier interpretation - make two groups, one over and one under mean CPI
 combined$over_under_mean<-ifelse(mean(combined$CPI_native)>combined$CPI_native, "under mean CPI", "over mean CPI")

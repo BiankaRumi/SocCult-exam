@@ -1,0 +1,894 @@
+---
+title: "Analysis SocCult only hun and dane"
+output: 
+  md_document:
+      variant: markdown_github
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+.libPaths( c("C:/Users/biank/Documents/Skole/CogSci/R_packages", .libPaths() ) )
+.libPaths()
+
+library(pacman)
+pacman::p_load(tidyverse,brms)
+
+
+```
+
+
+
+```{r echo=TRUE, include=FALSE}
+#read the two datasets
+combined_eng <- read_csv("combined_eng.csv")
+
+
+
+
+combined_dan<-read_csv("combined_danish.csv")
+
+unique(combined_eng$ID)
+unique(combined_dan$ID)
+
+#we make the danish IDs different so they do not match the english IDs
+combined_dan$ID<-combined_dan$ID+100
+
+#merge the two datasets
+
+combined<-merge(combined_dan, combined_eng,all=T)
+
+
+combined$d_data<-as.numeric(combined$d_data)
+combined$q_data<-as.numeric(combined$q_data)
+combined$f_data<-as.numeric(combined$f_data)
+
+
+
+
+#make a column for CPI_change
+
+combined$CPI_change<-combined$CPI_current-combined$CPI_native
+
+set.seed(1999)
+```
+
+```{r Demographics}
+
+participants<-unique(combined$ID) # 87 participants
+
+
+#gender
+
+combined %>% group_by(Gender)%>%
+  summarize(n_unique = n_distinct(ID))
+
+62/87 # 71% females
+
+
+#
+combined %>% group_by(CogSci)%>%
+  summarize(n_unique = n_distinct(ID))
+
+20/87 #23 % cogsci
+
+combined %>% summarize(mean(Age)) # mean age 35.28
+combined %>% summarize(sd(Age)) # sd  age 15.02
+
+
+combined %>% group_by(NativeCountry)%>%
+  summarize(n_unique = n_distinct(ID)) #brazil, bulgaria, croatia, czeh republic, danmark (40), finland, france, holland,  irak, japan, litauen, poland, romania, serbia, slovakia, spain, sri lanka, tyskland, ungarn (10 + 11)
+
+40/87 #45% danes
+21/87 #24% hungarians
+
+combined<-subset(combined,NativeCountry=="Hungary"| NativeCountry=="Ungarn" |NativeCountry=="Denmark" |NativeCountry=="Danmark")
+
+```
+
+## Template
+
+### Define hypotheses / Describe variables
+
+I will test for the following two hypotheses: 
+H1: Corruption rate of one's native country has an effect on interpersonal trust.
+
+H2: The effect declines over time spent in a non-corrupt country like Denmark
+
+Variables involved:
+
+Outcome: 3 different scores of interpersonal trust
+
+- trust_prisoners_dilemma (d_data), 2 rounds times scores 0-1, binomial
+
+- trust_faces (face_data), 20 observation times scores from 1-6, ordinal, 
+
+- trust_questionnaire (q_data), 4 questions scores from 1-6, ordinal
+
+
+Predictors: 
+
+H1:
+CPI_native: Corruption Perception Index, a scale from 1-100, where 100 indicates no corruption at all for native country: discrete variable, only positive, 
+
+Condition: dilemma 1 or 2 ; faces 1 - 20; q1- q4
+
+ID: unique ID for each participant
+
+H2: 
+CPI_native
+Condition
+ID
+Years: Number of years spent in current country
+CPI_change = CPI_current - CPI_native
+            Positive score = Less corruption
+            Negative score = more corruption
+0 = no change, probably haven’t moved
+
+
+Other predictors I consider to include to rule out other underlying factors
+- Native country GDP
+- Highest level of education
+
+I will make the following models:
+
+H1: 
+
+m0: Interpersonal trust ~ 1 + (1 | condition)+ (1 | ID)
+
+
+m2: Interpersonal trust ~ CPI_native + (1 | condition)+ (1 | ID),
+
+Each of these for the 3 different outcome variables, so 9 models.
+
+
+H2: 
+
+
+m3: Interpersonal trust  ~ 1 + CPI_native + CPI_change +  CPI_change:Years + (1 | condition)+ (1 | ID)
+
+Each of these fit the 3 different outcome variables, so 6 models.
+
+
+
+################################## H1 ############################### 
+First I define my models
+
+```{r}
+
+#First, I will define my models:
+
+
+f0_d<-bf(d_data ~ 1 + (1 | ID)+ (1 | d_condition) ) #bernoulli
+f0_q<-bf(q_data ~ 1 + (1 | ID) + (1 | q_condition))#cumulative
+f0_f<-bf(f_data ~ 1 + (1 | ID) + (1 | f_condition )) #cumulative
+
+
+
+
+f2_d<-bf(d_data ~ CPI_native + (1 | d_condition) + (1 | ID))
+f2_q<-bf(q_data ~ CPI_native + (1 | ID) + (1 | q_condition))
+f2_f<-bf(f_data ~ CPI_native + (1 | ID) + (1 | f_condition ))
+
+
+ 
+
+```
+
+
+Making the priors for m0
+```{r Priors for the null models}
+############### prior for dilemma #####################
+hist(combined$d_data)
+hist(combined$f_data)
+hist(combined$q_data)
+
+get_prior(f0_d, combined, bernoulli())
+
+f0_d_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0, .1), class = sd)
+)
+
+f0_d_prior_m <- brm(
+  f0_d,
+  combined,
+  family = bernoulli,
+  prior = f0_d_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "d_m0_prior"
+  )
+
+pp_check(f0_d_prior_m,nsamples=100)
+
+
+
+
+############# f0 prior for questionnaire ###################
+
+get_prior(f0_q, combined, family=cumulative)
+
+f0_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f0_q_prior_m <- brm(
+  f0_q,
+  combined,
+  family = cumulative(),
+  prior = f0_q_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "q_m0_prior"
+  )
+
+pp_check(f0_q_prior_m,nsamples=100) # why so many predictions at 1???
+
+
+
+
+
+
+
+###################### f0 prior for faces ##################################
+
+get_prior(f0_f, combined, family=cumulative)
+
+f0_f_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f0_f_prior_m <- brm(
+  f0_f,
+  combined,
+  family=cumulative,
+  prior = f0_f_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "f_m0_prior"
+  )
+
+pp_check(f0_f_prior_m,nsamples=100) # why so many predictions at 1???
+
+
+
+
+```
+
+Running the m0s
+```{r Running the null models}
+
+
+############################## null model for dilemma #################################
+d_m0 <- brm(
+  f0_d,
+  combined,
+  family = bernoulli(),
+  prior = f0_d_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "d_m0_hd"
+  )
+
+summary(d_m0)
+
+
+pp_check(d_m0,  nsamples=100)
+
+
+
+################################ null model for questionnaire ###################################
+
+q_m0 <- brm(
+  f0_q,
+  combined,
+  family = cumulative,
+  prior = f0_q_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "q_m0_hd"
+  )
+
+summary(q_m0)
+
+pp_check(q_m0, nsamples=100)
+
+
+
+############################### null model for faces######################################
+
+
+f_m0 <- brm(
+  f0_f,
+  combined,
+  family=cumulative(),
+  prior = f0_f_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "f_m0_hd"
+  )
+
+pp_check(f_m0,nsamples=100)
+summary(f_m0)
+
+
+#pp_check - the data seems to have learned a lot - maybe too much? how to know?
+
+```
+
+Correlation test, see if different tasks correlate within participants
+```{r Correlation test, see if the different tasks correlate within participants}
+
+#extract the varying effects for dilemma model
+d<-ranef(d_m0)
+d<-d$ID
+d<-as.data.frame(d)
+names(d)[names(d)=="Estimate.Intercept"]<-"D_var_ef"
+
+
+#extract th varying effects for questionnaire model
+q<-ranef(q_m0)
+q<-q$ID
+q<-as.data.frame(q)
+names(q)[names(q)=="Estimate.Intercept"]<-"Q_var_ef"
+
+
+
+
+#extract varying effects for faces model
+f<-ranef(f_m0)
+f<-f$ID
+f<-as.data.frame(f)
+names(f)[names(f)=="Estimate.Intercept"]<-"F_var_ef"
+
+
+#make them one df
+var_ef<-cbind(f$F_var_ef,q$Q_var_ef,d$D_var_ef) # V1 = faces, V2 = questionnaire, V3 = dilemma
+
+
+
+#we make a model to see the rescore value which indicates the correlation.
+f_cor <- 
+  brm(data = var_ef, 
+      family = gaussian,
+      mvbind(V1,V2,V3) ~ 1,
+      iter = 2000, warmup = 500, chains = 4, cores = 4, 
+      seed = 210191) 
+
+summary(f_cor) #Faces and questionnaire are somehow correlated (0.53) but not the others
+```
+
+
+
+
+
+Setting prior for dilemma, m2
+```{r Prior for dilemma, m2}
+####### f2 prior for dilemma ############
+get_prior(f2_d, combined, family = bernoulli())
+
+f2_d_prior<-c(
+  prior(normal(0.5, 0.2), class = Intercept),
+  prior(normal(0.1, .05), class = b, coef=CPI_native),
+  prior(normal(0, .1), class = sd)
+)
+
+f2_d_prior_m <- brm(
+  f2_d,
+  combined,
+  family = bernoulli(),
+  prior = f2_d_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "d_m2_prior"
+  )
+
+
+pp_check(f2_d_prior_m,nsamples=100)
+
+
+
+
+
+```
+
+Making m2 and compare m0 and m2
+```{r Prisoners: Model 2 and model comparison}
+
+################## making the models #####################
+
+
+
+
+
+d_m2 <- brm(
+  f2_d,
+  combined,
+  family = bernoulli,
+  prior = f2_d_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "d_m2_hd"
+  )
+
+summary(d_m2) # no seemingly credible effect of CPI_native
+
+pp_check(d_m2,  nsamples=100)
+
+d_m0<-add_criterion(d_m0,criterion="loo")
+
+d_m2<-add_criterion(d_m2,criterion="loo")
+
+loo_compare(d_m0, d_m2)
+loo_model_weights(d_m0, d_m2) # the null model is best to capture the variance in the data with a loo weight of 0.866
+
+
+
+```
+
+Making priors for questionnaire m2
+```{r Priors for Questionnaire, m2}
+
+
+####################### m2 prior for questionnaire ####################
+
+get_prior(f2_q, combined, family=cumulative)
+
+f2_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .1), class = b),
+  prior(normal(0.3, .1), class = b,coef=CPI_native),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f2_q_prior_m <- brm(
+  f2_q,
+  combined,
+  family=cumulative,
+  prior = f2_q_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "q_m2_prior"
+  )
+
+pp_check(f2_q_prior_m,nsamples=100) # still many predictions at 1....
+
+
+
+
+
+```
+Making questionnaire m2 and model comparisons
+```{r Questionnaire model and comparisons }
+
+
+
+q_m2 <- brm(
+  f2_q,
+  combined,
+  family=cumulative,
+  prior = f2_q_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "q_m2_hd"
+  )
+
+summary(q_m2) # a small effect of CPI_native, 0.02
+
+pp_check(q_m2, nsamples=100)
+
+q_m0<-add_criterion(q_m0,criterion="loo")
+
+q_m2<-add_criterion(q_m2,criterion="loo")
+
+loo_compare(q_m0, q_m2)
+loo_model_weights(q_m0, q_m2)#  however, the null model performs the best which makes it seems like there is no evidence for the hypothesis
+```
+
+
+Making prior for faces m2
+```{r Faces, prior for model 2 }
+
+####################### f2 prior for faces ############################
+
+
+get_prior(f2_f, combined, cumulative())
+mean(combined$f_data,na.rm=TRUE)
+sd(combined$f_data,na.rm=TRUE)
+
+f2_f_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .1), class = b, coef=CPI_native),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f2_f_prior_m <- brm(
+  f2_f,
+  combined,
+  family = cumulative,
+  prior = f2_f_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "f_m2_prior"
+  )
+
+pp_check(f2_f_prior_m,nsamples=100)
+
+
+
+
+
+
+
+```
+
+Making m2 Faces and model comparisons
+```{r Faces Model 2 and comparisons}
+
+########################## making the models #################################
+
+
+
+
+f_m2 <- brm(
+  f2_f,
+  combined,
+  family=cumulative(),
+  prior = f2_f_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "f_m2_hd"
+  )
+
+pp_check(f_m2,nsamples=100)
+summary(f_m2) # no effect of CPI_native
+
+
+f_m0<-add_criterion(f_m0,criterion="loo")
+
+f_m2<-add_criterion(f_m2,criterion="loo")
+
+loo_compare(f_m0,f_m2) #m2 is the best model with the weight of 1
+loo_model_weights(f_m0, f_m2)
+
+```
+
+
+
+
+
+Visualization of results and Hypothesis testing:
+```{r Hypothesis testing H1}
+
+
+plot(hypothesis(d_m2,"CPI_native > 0")) #no effect
+hypothesis(d_m2,"CPI_native > 0")
+
+plot(hypothesis(q_m2,"CPI_native > 0")) #small effect of 0.02 with Inf for evid.ratio, however, this was not the best model in model comparison - the null model performed better
+hypothesis(q_m2,"CPI_native > 0")
+
+plot(hypothesis(f_m2,"CPI_native > 0"))
+hypothesis(f_m2,"CPI_native > 0") # no effect
+
+
+#make a plot for q_m2
+ggplot(combined, aes(CPI_native, q_data, fill=CPI_native))+geom_bar(stat="summary", fun.y="mean")
+
+ggplot(combined, aes(CPI_native, q_data))+geom_point()+geom_smooth()
+
+#plot for easier interpretation - make two groups, one over and one under mean CPI
+combined$over_under_mean<-ifelse(mean(combined$CPI_native)>combined$CPI_native, "under mean CPI", "over mean CPI")
+class(combined$q_data)
+
+ggplot(combined,aes(over_under_mean, q_data, fill=over_under_mean))+geom_bar(stat="summary", fun.y="mean")+stat_summary(geom = "errorbar", fun.data = mean_se, position = "dodge") # error bars mark the mean standard error
+
+
+
+```
+
+
+
+```{r include=FALSE}
+#divergence check for all h0 and h1 prior models 
+
+#summary(f0_f_prior_m)
+#summary(f0_q_prior_m)
+#summary(f0_d_prior_m)
+#summary(f1_f_prior_m)
+#summary(f1_q_prior_m)
+#summary(f1_d_prior_m)
+
+#RHAT 1 for all, yaaay
+
+
+```
+
+
+
+
+################################## H2 ############################### 
+Defining formula for models H2
+
+```{r Models for H2}
+
+
+
+f3_d<- bf(d_data ~ 1 + CPI_native + CPI_change  + CPI_change * Years_Current + (1 | d_condition) +  (1 | ID))
+
+f3_q<- bf(q_data ~ 1 + CPI_native + CPI_change  + CPI_change * Years_Current + (1 | q_condition) +  (1 | ID))
+
+f3_f<- bf(f_data ~ 1 + CPI_native + CPI_change  + CPI_change * Years_Current + (1 | f_condition)+(1 | ID))
+
+```
+
+
+Defining priors for Dilemma m3
+
+```{r H2 Priors for Prisoners Dilemma }
+############### prior for dilemma #####################
+
+get_prior(f3_d, combined, bernoulli())
+
+f3_d_prior<-c(
+  prior(normal(0.5, 0.1), class = Intercept),
+  prior(normal(0.1, .05), class = b, coef=CPI_native),
+  prior(normal(0.1, .05), class = b, coef=CPI_change),
+  prior(normal(0.1, .05), class = b, coef=Years_Current),
+  prior(normal(0.05, .03), class = b, coef=CPI_change:Years_Current),
+  prior(normal(0, .1), class = sd)
+)
+
+
+f3_d_prior_m <- brm(
+  f3_d,
+  combined,
+  family = bernoulli,
+  prior = f3_d_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "d_m3_prior"
+  )
+
+pp_check(f3_d_prior_m,nsamples=1000) # why so few lines??
+
+
+summary(f3_d_prior_m)
+```
+
+
+m3 and model comparison
+```{r H2 Prisoners: Models and model comparison}
+
+################## making the models #####################
+
+
+
+d_m3 <- brm(
+  f3_d,
+  combined,
+  family = bernoulli(),
+  prior = f3_d_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "d_m3_hd"
+  )
+
+summary(d_m3) # no credible interaction effect
+
+
+
+d_m3<-add_criterion(d_m3,criterion="loo")
+
+
+loo_compare(d_m0, d_m2, d_m3)
+loo_model_weights(d_m0, d_m2, d_m3) #null model still outperforms the other models
+```
+
+
+
+
+
+Defining priors questionnaire m3
+```{r Priors for Questionnaire}
+
+############# f0 prior for questionnaire ###################
+
+get_prior(f3_q, combined, cumulative())
+
+
+f3_q_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .1), class = b),
+  prior(normal(0.3, .1), class = b,coef=CPI_native),
+  prior(normal(0.3, .1), class = b, coef=Years_Current),
+  prior(normal(0.2, .1), class = b, coef=CPI_change:Years_Current),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f3_q_prior_m <- brm(
+  f3_q,
+  combined,
+  family = cumulative,
+  prior = f3_q_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "q_m3_prior"
+  )
+
+pp_check(f3_q_prior_m,nsamples=100) #pretty bad predictions again...
+
+
+
+
+
+```
+m3 questionnaire and model comparisons
+```{r Questionnaire models and comparisons }
+
+
+q_m3 <- brm(
+  f3_q,
+  combined,
+  family = cumulative,
+  prior = f3_q_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "q_m3_hd"
+  )
+
+summary(q_m3) # no interaction effect, but small effects for CPI_current and CPI_change
+
+
+
+q_m3<-add_criterion(q_m3,criterion="loo")
+q_m0<-add_criterion(q_m0, criterion="loo")
+
+loo_compare(q_m0, q_m2, q_m3) # null model is the best model, 0.854
+
+loo_model_weights(q_m0, q_m2, q_m3)
+```
+
+
+Defining prior m3 for faces
+```{r Faces Priors }
+
+
+
+####################### f3 prior for faces ############################
+
+
+get_prior(f3_f, combined, cumulative())
+
+f3_f_prior<-c(
+  prior(normal(3.5, 1), class = Intercept),
+  prior(normal(0.3, .3), class = b),
+  prior(normal(0.3, .1), class = b, coef=CPI_native),
+  prior(normal(0.3, .1), class = b, coef=Years_Current),
+  prior(normal(0.2, .1), class = b, coef=CPI_change:Years_Current),
+  prior(normal(0, .1), class = sd)
+  )
+
+
+f3_f_prior_m <- brm(
+  f3_f,
+  combined,
+  family = cumulative,
+  prior = f3_f_prior,
+  sample_prior = "only",
+  chains = 4,
+  cores = 4,
+  file = "f_m3_prior"
+  )
+
+pp_check(f3_f_prior_m,nsamples=100)
+
+
+
+
+
+
+
+```
+
+m3 faces and model comparisons
+```{r Faces Models and comparisons}
+
+########################## making the models #################################
+
+
+f_m3 <- brm(
+  f3_f,
+  combined,
+  family=cumulative(),
+  prior = f3_f_prior,
+  sample_prior = T,
+  chains = 4,
+  cores = 4,
+  file = "f_m3_hd"
+  )
+
+pp_check(f_m3,nsamples=100)
+
+pp_check(q_m3, nsamples=100)
+pp_check(d_m3, nsamples=100)
+summary(f_m3) # no interaction effect
+
+
+f_m3<-add_criterion(f_m3,criterion="loo") 
+
+
+loo_compare(f_m0, f_m2, f_m3)
+loo_model_weights(f_m0, f_m2, f_m3) # model 3 is the best one, but why is that when therer is no credible interaction?
+```
+
+
+
+
+
+
+
+Visualization of results and hypothesis testing H2:
+```{r Hypothesis tests H2}
+
+plot(hypothesis(d_m3,"CPI_change:Years_Current > 0"))
+hypothesis(d_m3,"CPI_change:Years_Current > 0")
+
+
+plot(hypothesis(q_m3,"CPI_change:Years_Current > 0"))
+hypothesis(q_m3,"CPI_change:Years_Current > 0")
+
+
+plot(hypothesis(f_m3,"CPI_change:Years_Current > 0"))
+hypothesis(f_m3,"CPI_change:Years_Current > 0")
+
+
+
+
+```
+```{r include=FALSE}
+#divergence check for all h0 and h1 prior models 
+
+summary(f3_f_prior_m)
+summary(f3_q_prior_m)
+summary(f3_d_prior_m)
+
+
+#RHAT 1 for all, yaaay
+
+
+```
+
+```{r include=FALSE}
+#RStudio.Version()
+
+#citation()
+
+#citation("brms")
+```
+
+
